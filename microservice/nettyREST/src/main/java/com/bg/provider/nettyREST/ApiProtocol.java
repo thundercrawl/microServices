@@ -25,7 +25,7 @@ public class ApiProtocol {
 
     private int                       build      = 101;
     private String                    version    = "1.0";
-    private String                    channel    = "mengkang.net";
+    private String                    channel    = "bg.micro";
     private String                    geo        = null;
     private String                    clientIP   = null;
     private String                    serverIP   = null;
