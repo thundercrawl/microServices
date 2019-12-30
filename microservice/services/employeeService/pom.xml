@@ -7,16 +7,18 @@
     <artifactId>services</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <groupId>com.bg</groupId>
   <artifactId>employeeService</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
   <name>employeeService</name>
   <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   <dependencies>
- 
+ 	<dependency>
+ 	<groupId>com.bg</groupId>
+ 		  <artifactId>nettyREST</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+ 	</dependency>
   </dependencies>
   <build>
   <plugins>

@@ -8,13 +8,11 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <groupId>com.bg</groupId>
-  <artifactId>services</artifactId>
+  <artifactId>nettyREST</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>services</name>
+  <name>nettyREST</name>
   <url>http://maven.apache.org</url>
-  
-
-  <properties>
+<properties>
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <netty.version>5.0.0.Alpha2</netty.version>
         <slf4j.version>1.7.13</slf4j.version>
@@ -46,8 +44,6 @@
             <version>${json.version}</version>
         </dependency>
   </dependencies>
-  <packaging>pom</packaging>
-  <modules>
-  	<module>employeeService</module>
-  </modules>
+  <packaging>jar</packaging>
+
 </project>
