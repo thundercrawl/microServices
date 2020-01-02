@@ -1,7 +1,11 @@
-package com.bg.provider.nettyREST.response;
+package com.bg.microservice.share.response;
 
 public class ListInfo extends Info {
-    private int num;
+    public ListInfo(String msg) {
+		super(msg);
+	}
+
+	private int num;
 
     public int getNum() {
         return num;

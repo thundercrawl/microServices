@@ -1,15 +1,16 @@
-package com.bg.provider.nettyREST.response;
+package com.bg.microservice.share.response;
 
 
 
 import java.util.List;
 
-import com.bg.provider.nettyREST.BaseEntity;
+import com.bg.microservice.share.api.BaseEntity;
+
 
 
 public class ListResult extends Result {
 
-    protected List<? extends com.bg.provider.nettyREST.BaseEntity> item;
+    protected List<? extends BaseEntity> item;
 
     public List<? extends BaseEntity> getItem() {
         return item;

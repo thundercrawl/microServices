@@ -1,4 +1,4 @@
-package com.bg.provider.nettyREST;
+package com.bg.microservice.share.api;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
@@ -9,6 +9,7 @@ import io.netty.handler.codec.http.multipart.MixedAttribute;
 import io.netty.util.CharsetUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
 
 import java.lang.reflect.Field;
 import java.net.InetSocketAddress;
@@ -171,6 +172,7 @@ public class ApiProtocol {
 
         InetSocketAddress serverSocket = (InetSocketAddress) ctx.channel().localAddress();
         this.serverIP = serverSocket.getAddress().getHostAddress();
+        logger.debug("server ip: {}, client ip: {}",this.serverIP,this.clientIP);
     }
 
     /**

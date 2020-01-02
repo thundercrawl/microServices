@@ -1,4 +1,4 @@
-package com.bg.provider.nettyREST.response;
+package com.bg.microservice.share.response;
 
 public class Result<T extends Info> {
 

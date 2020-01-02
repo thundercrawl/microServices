@@ -1,9 +1,12 @@
-package com.bg.provider.nettyREST.response;
+package com.bg.microservice.share.response;
 
 public class Info {
     private int code = 200;
     private String codeMessage;
-
+    public Info(String msg)
+    {
+    	this.codeMessage = msg;
+    }
     public int getCode() {
         return code;
     }

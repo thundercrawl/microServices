@@ -1,4 +1,4 @@
-package com.bg.provider.nettyREST;
+package com.bg.microservice.share.response;
 
 import java.util.HashMap;
 import java.util.Map;

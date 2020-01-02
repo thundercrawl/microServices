@@ -1,4 +1,4 @@
-package com.bg.provider.nettyREST;
+package com.bg.microservice.share.api;
 
 import java.util.ArrayList;
 import java.util.HashSet;

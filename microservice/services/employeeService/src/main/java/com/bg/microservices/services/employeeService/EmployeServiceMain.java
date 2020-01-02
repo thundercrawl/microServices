@@ -5,9 +5,9 @@ import org.slf4j.LoggerFactory;
 import com.bg.provider.nettyREST.NettyRestServer;
 import com.bg.provider.nettyREST.ServerHandler;
 
-public class App 
+public class EmployeServiceMain 
 {
-	private final static Logger logger = LoggerFactory.getLogger(App.class);
+	private final static Logger logger = LoggerFactory.getLogger(EmployeServiceMain.class);
     public static void main( String[] args )
     {
     	logger.info("Start employee services");

@@ -23,5 +23,7 @@ public class ServerInitializer extends ChannelInitializer<SocketChannel> {
         p.addLast(new ChunkedWriteHandler());
 
         p.addLast(new ServerHandler());
+        
+        p.addLast(new LastHandler());
     }
 }
