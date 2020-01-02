@@ -1053,3 +1053,628 @@
 [DEBUG] 2020-01-02 16:58:15.696 [nioEventLoopGroup-1-0] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
 [DEBUG] 2020-01-02 16:58:15.705 [nioEventLoopGroup-1-0] ZlibCodecFactory - -Dio.netty.noJdkZlibDecoder: true
 [DEBUG] 2020-01-02 16:58:15.705 [nioEventLoopGroup-1-0] ZlibCodecFactory - -Dio.netty.noJdkZlibEncoder: false
+[INFO ] 2020-01-02 17:27:22.227 [main] EmployeServiceMain - Start employee services
+[DEBUG] 2020-01-02 17:27:22.230 [main] EmployeServiceMain - Start employee services
+[DEBUG] 2020-01-02 17:27:22.237 [main] InternalLoggerFactory - Using SLF4J as the default logging framework
+[DEBUG] 2020-01-02 17:27:22.241 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+[DEBUG] 2020-01-02 17:27:22.264 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2020-01-02 17:27:22.264 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2020-01-02 17:27:22.264 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2020-01-02 17:27:22.265 [main] PlatformDependent0 - java.nio.Bits.unaligned: true
+[DEBUG] 2020-01-02 17:27:22.265 [main] PlatformDependent - Java version: 8
+[DEBUG] 2020-01-02 17:27:22.265 [main] PlatformDependent - -Dio.netty.noUnsafe: false
+[DEBUG] 2020-01-02 17:27:22.265 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2020-01-02 17:27:22.265 [main] PlatformDependent - -Dio.netty.noJavassist: false
+[DEBUG] 2020-01-02 17:27:22.266 [main] PlatformDependent - Javassist: unavailable
+[DEBUG] 2020-01-02 17:27:22.266 [main] PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[DEBUG] 2020-01-02 17:27:22.266 [main] PlatformDependent - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+[DEBUG] 2020-01-02 17:27:22.266 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2020-01-02 17:27:22.266 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2020-01-02 17:27:22.267 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2020-01-02 17:27:22.267 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[TRACE] 2020-01-02 17:27:22.270 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@12405818
+[TRACE] 2020-01-02 17:27:22.270 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@16267862
+[TRACE] 2020-01-02 17:27:22.271 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@453da22c
+[TRACE] 2020-01-02 17:27:22.271 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@71248c21
+[TRACE] 2020-01-02 17:27:22.271 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@442675e1
+[TRACE] 2020-01-02 17:27:22.271 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6166e06f
+[TRACE] 2020-01-02 17:27:22.271 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@49e202ad
+[TRACE] 2020-01-02 17:27:22.271 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@1c72da34
+[TRACE] 2020-01-02 17:27:22.271 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6b0c2d26
+[TRACE] 2020-01-02 17:27:22.271 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@3d3fcdb0
+[TRACE] 2020-01-02 17:27:22.272 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@641147d0
+[TRACE] 2020-01-02 17:27:22.272 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6e38921c
+[TRACE] 2020-01-02 17:27:22.272 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@64d7f7e0
+[TRACE] 2020-01-02 17:27:22.272 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@27c6e487
+[TRACE] 2020-01-02 17:27:22.272 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@49070868
+[TRACE] 2020-01-02 17:27:22.272 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6385cb26
+[TRACE] 2020-01-02 17:27:22.272 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@38364841
+[DEBUG] 2020-01-02 17:27:22.294 [main] DefaultChannelId - -Dio.netty.processId: 24602 (auto-detected)
+[DEBUG] 2020-01-02 17:27:22.295 [main] DefaultChannelId - -Dio.netty.machineId: e0:9d:31:ff:fe:db:34:36 (auto-detected)
+[DEBUG] 2020-01-02 17:27:22.296 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xb676199c9f0bcb73 (took 5 ms)
+[DEBUG] 2020-01-02 17:27:22.320 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2020-01-02 17:27:22.321 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2020-01-02 17:27:22.321 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2020-01-02 17:27:22.321 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[DEBUG] 2020-01-02 17:27:22.321 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] 2020-01-02 17:27:22.321 [main] PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[DEBUG] 2020-01-02 17:27:22.321 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2020-01-02 17:27:22.321 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2020-01-02 17:27:22.321 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2020-01-02 17:27:22.321 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2020-01-02 17:27:22.326 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2020-01-02 17:27:22.326 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[DEBUG] 2020-01-02 17:27:22.328 [main] NetUtil - Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+[DEBUG] 2020-01-02 17:27:22.328 [main] NetUtil - /proc/sys/net/core/somaxconn: 128
+[INFO ] 2020-01-02 17:27:22.337 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x13644f19] REGISTERED
+[INFO ] 2020-01-02 17:27:22.339 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x13644f19] BIND: 0.0.0.0/0.0.0.0:8080
+[INFO ] 2020-01-02 17:27:22.340 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x13644f19, /0:0:0:0:0:0:0:0:8080] ACTIVE
+[INFO ] 2020-01-02 17:27:30.745 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x13644f19, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x3d4b11d5, /127.0.0.1:33722 => /127.0.0.1:8080]
+[DEBUG] 2020-01-02 17:27:30.756 [nioEventLoopGroup-1-0] ResourceLeakDetector - -Dio.netty.leakDetectionLevel: simple
+[DEBUG] 2020-01-02 17:27:30.784 [nioEventLoopGroup-1-0] Recycler - -Dio.netty.recycler.maxCapacity: 262144
+[INFO ] 2020-01-02 17:27:30.800 [nioEventLoopGroup-1-0] ApiProtocol - /user?name=sujj
+[DEBUG] 2020-01-02 17:27:30.803 [nioEventLoopGroup-1-0] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-02 17:27:30.806 [nioEventLoopGroup-1-0] UserResource - parameter name
+[DEBUG] 2020-01-02 17:27:30.815 [nioEventLoopGroup-1-0] ZlibCodecFactory - -Dio.netty.noJdkZlibDecoder: true
+[DEBUG] 2020-01-02 17:27:30.815 [nioEventLoopGroup-1-0] ZlibCodecFactory - -Dio.netty.noJdkZlibEncoder: false
+[INFO ] 2020-01-02 17:27:52.602 [main] EmployeServiceMain - Start employee services
+[DEBUG] 2020-01-02 17:27:52.604 [main] EmployeServiceMain - Start employee services
+[DEBUG] 2020-01-02 17:27:52.610 [main] InternalLoggerFactory - Using SLF4J as the default logging framework
+[DEBUG] 2020-01-02 17:27:52.613 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+[DEBUG] 2020-01-02 17:27:52.635 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2020-01-02 17:27:52.635 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2020-01-02 17:27:52.635 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2020-01-02 17:27:52.635 [main] PlatformDependent0 - java.nio.Bits.unaligned: true
+[DEBUG] 2020-01-02 17:27:52.636 [main] PlatformDependent - Java version: 8
+[DEBUG] 2020-01-02 17:27:52.636 [main] PlatformDependent - -Dio.netty.noUnsafe: false
+[DEBUG] 2020-01-02 17:27:52.636 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2020-01-02 17:27:52.636 [main] PlatformDependent - -Dio.netty.noJavassist: false
+[DEBUG] 2020-01-02 17:27:52.637 [main] PlatformDependent - Javassist: unavailable
+[DEBUG] 2020-01-02 17:27:52.637 [main] PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[DEBUG] 2020-01-02 17:27:52.637 [main] PlatformDependent - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+[DEBUG] 2020-01-02 17:27:52.637 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2020-01-02 17:27:52.637 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2020-01-02 17:27:52.638 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2020-01-02 17:27:52.638 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[TRACE] 2020-01-02 17:27:52.641 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@12405818
+[TRACE] 2020-01-02 17:27:52.641 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@16267862
+[TRACE] 2020-01-02 17:27:52.642 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@453da22c
+[TRACE] 2020-01-02 17:27:52.642 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@71248c21
+[TRACE] 2020-01-02 17:27:52.642 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@442675e1
+[TRACE] 2020-01-02 17:27:52.642 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6166e06f
+[TRACE] 2020-01-02 17:27:52.642 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@49e202ad
+[TRACE] 2020-01-02 17:27:52.642 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@1c72da34
+[TRACE] 2020-01-02 17:27:52.642 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6b0c2d26
+[TRACE] 2020-01-02 17:27:52.642 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@3d3fcdb0
+[TRACE] 2020-01-02 17:27:52.643 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@641147d0
+[TRACE] 2020-01-02 17:27:52.643 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6e38921c
+[TRACE] 2020-01-02 17:27:52.643 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@64d7f7e0
+[TRACE] 2020-01-02 17:27:52.643 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@27c6e487
+[TRACE] 2020-01-02 17:27:52.643 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@49070868
+[TRACE] 2020-01-02 17:27:52.643 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6385cb26
+[TRACE] 2020-01-02 17:27:52.643 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@38364841
+[DEBUG] 2020-01-02 17:27:52.664 [main] DefaultChannelId - -Dio.netty.processId: 24656 (auto-detected)
+[DEBUG] 2020-01-02 17:27:52.665 [main] DefaultChannelId - -Dio.netty.machineId: e0:9d:31:ff:fe:db:34:36 (auto-detected)
+[DEBUG] 2020-01-02 17:27:52.666 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x11dd0dc99e0d9ae8 (took 3 ms)
+[DEBUG] 2020-01-02 17:27:52.683 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2020-01-02 17:27:52.684 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2020-01-02 17:27:52.684 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2020-01-02 17:27:52.684 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[DEBUG] 2020-01-02 17:27:52.684 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] 2020-01-02 17:27:52.684 [main] PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[DEBUG] 2020-01-02 17:27:52.684 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2020-01-02 17:27:52.684 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2020-01-02 17:27:52.684 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2020-01-02 17:27:52.684 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2020-01-02 17:27:52.688 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2020-01-02 17:27:52.688 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[DEBUG] 2020-01-02 17:27:52.689 [main] NetUtil - Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+[DEBUG] 2020-01-02 17:27:52.690 [main] NetUtil - /proc/sys/net/core/somaxconn: 128
+[INFO ] 2020-01-02 17:27:52.697 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x64f56800] REGISTERED
+[INFO ] 2020-01-02 17:27:52.699 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x64f56800] BIND: 0.0.0.0/0.0.0.0:8080
+[INFO ] 2020-01-02 17:27:52.700 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x64f56800, /0:0:0:0:0:0:0:0:8080] ACTIVE
+[INFO ] 2020-01-02 17:28:01.881 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x64f56800, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x26201006, /0:0:0:0:0:0:0:1:50474 => /0:0:0:0:0:0:0:1:8080]
+[INFO ] 2020-01-02 17:28:01.882 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x64f56800, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xb3736560, /0:0:0:0:0:0:0:1:50476 => /0:0:0:0:0:0:0:1:8080]
+[DEBUG] 2020-01-02 17:28:01.895 [nioEventLoopGroup-1-1] ResourceLeakDetector - -Dio.netty.leakDetectionLevel: simple
+[DEBUG] 2020-01-02 17:28:01.925 [nioEventLoopGroup-1-0] Recycler - -Dio.netty.recycler.maxCapacity: 262144
+[INFO ] 2020-01-02 17:28:01.940 [nioEventLoopGroup-1-0] ApiProtocol - /
+[DEBUG] 2020-01-02 17:28:01.945 [nioEventLoopGroup-1-0] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[DEBUG] 2020-01-02 17:28:01.953 [nioEventLoopGroup-1-0] ZlibCodecFactory - -Dio.netty.noJdkZlibDecoder: true
+[DEBUG] 2020-01-02 17:28:01.953 [nioEventLoopGroup-1-0] ZlibCodecFactory - -Dio.netty.noJdkZlibEncoder: false
+[INFO ] 2020-01-02 17:28:01.982 [nioEventLoopGroup-1-0] ApiProtocol - /favicon.ico
+[DEBUG] 2020-01-02 17:28:01.982 [nioEventLoopGroup-1-0] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-02 17:28:41.519 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x64f56800, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xe902e3bb, /0:0:0:0:0:0:0:1:50790 => /0:0:0:0:0:0:0:1:8080]
+[INFO ] 2020-01-02 17:28:41.522 [nioEventLoopGroup-1-0] ApiProtocol - /users?name=sujj&title=employee
+[DEBUG] 2020-01-02 17:28:41.523 [nioEventLoopGroup-1-0] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-02 17:28:41.564 [nioEventLoopGroup-1-0] ApiProtocol - /favicon.ico
+[DEBUG] 2020-01-02 17:28:41.565 [nioEventLoopGroup-1-0] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-02 17:29:07.244 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x64f56800, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x5d6b6423, /0:0:0:0:0:0:0:1:51002 => /0:0:0:0:0:0:0:1:8080]
+[INFO ] 2020-01-02 17:29:07.256 [nioEventLoopGroup-1-3] ApiProtocol - /users?name=sujj&title=employee
+[DEBUG] 2020-01-02 17:29:07.256 [nioEventLoopGroup-1-3] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-02 17:29:07.278 [nioEventLoopGroup-1-3] ApiProtocol - /favicon.ico
+[DEBUG] 2020-01-02 17:29:07.279 [nioEventLoopGroup-1-3] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-02 17:29:13.432 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x64f56800, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x8e2cd266, /127.0.0.1:34550 => /127.0.0.1:8080]
+[INFO ] 2020-01-02 17:29:13.455 [nioEventLoopGroup-1-0] ApiProtocol - /users?name=sujj&title=employee
+[DEBUG] 2020-01-02 17:29:13.455 [nioEventLoopGroup-1-0] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-02 17:29:20.620 [nioEventLoopGroup-1-0] ApiProtocol - /users?name=sujj,title=employee
+[DEBUG] 2020-01-02 17:29:20.620 [nioEventLoopGroup-1-0] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-02 17:29:25.002 [nioEventLoopGroup-1-0] ApiProtocol - /users?name=sujj
+[DEBUG] 2020-01-02 17:29:25.002 [nioEventLoopGroup-1-0] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-02 17:31:24.708 [main] EmployeServiceMain - Start employee services
+[DEBUG] 2020-01-02 17:31:24.711 [main] EmployeServiceMain - Start employee services
+[DEBUG] 2020-01-02 17:31:24.719 [main] InternalLoggerFactory - Using SLF4J as the default logging framework
+[DEBUG] 2020-01-02 17:31:24.722 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+[DEBUG] 2020-01-02 17:31:24.743 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2020-01-02 17:31:24.743 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2020-01-02 17:31:24.744 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2020-01-02 17:31:24.744 [main] PlatformDependent0 - java.nio.Bits.unaligned: true
+[DEBUG] 2020-01-02 17:31:24.744 [main] PlatformDependent - Java version: 8
+[DEBUG] 2020-01-02 17:31:24.744 [main] PlatformDependent - -Dio.netty.noUnsafe: false
+[DEBUG] 2020-01-02 17:31:24.744 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2020-01-02 17:31:24.744 [main] PlatformDependent - -Dio.netty.noJavassist: false
+[DEBUG] 2020-01-02 17:31:24.745 [main] PlatformDependent - Javassist: unavailable
+[DEBUG] 2020-01-02 17:31:24.745 [main] PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[DEBUG] 2020-01-02 17:31:24.745 [main] PlatformDependent - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+[DEBUG] 2020-01-02 17:31:24.745 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2020-01-02 17:31:24.745 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2020-01-02 17:31:24.746 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2020-01-02 17:31:24.746 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[TRACE] 2020-01-02 17:31:24.749 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@12405818
+[TRACE] 2020-01-02 17:31:24.750 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@16267862
+[TRACE] 2020-01-02 17:31:24.750 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@453da22c
+[TRACE] 2020-01-02 17:31:24.750 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@71248c21
+[TRACE] 2020-01-02 17:31:24.750 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@442675e1
+[TRACE] 2020-01-02 17:31:24.750 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6166e06f
+[TRACE] 2020-01-02 17:31:24.751 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@49e202ad
+[TRACE] 2020-01-02 17:31:24.751 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@1c72da34
+[TRACE] 2020-01-02 17:31:24.751 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6b0c2d26
+[TRACE] 2020-01-02 17:31:24.751 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@3d3fcdb0
+[TRACE] 2020-01-02 17:31:24.751 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@641147d0
+[TRACE] 2020-01-02 17:31:24.751 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6e38921c
+[TRACE] 2020-01-02 17:31:24.751 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@64d7f7e0
+[TRACE] 2020-01-02 17:31:24.751 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@27c6e487
+[TRACE] 2020-01-02 17:31:24.751 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@49070868
+[TRACE] 2020-01-02 17:31:24.751 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6385cb26
+[TRACE] 2020-01-02 17:31:24.751 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@38364841
+[DEBUG] 2020-01-02 17:31:24.771 [main] DefaultChannelId - -Dio.netty.processId: 24911 (auto-detected)
+[DEBUG] 2020-01-02 17:31:24.772 [main] DefaultChannelId - -Dio.netty.machineId: e0:9d:31:ff:fe:db:34:36 (auto-detected)
+[DEBUG] 2020-01-02 17:31:24.773 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xc23ce0d751455dad (took 4 ms)
+[DEBUG] 2020-01-02 17:31:24.790 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2020-01-02 17:31:24.790 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2020-01-02 17:31:24.790 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2020-01-02 17:31:24.790 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[DEBUG] 2020-01-02 17:31:24.790 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] 2020-01-02 17:31:24.790 [main] PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[DEBUG] 2020-01-02 17:31:24.790 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2020-01-02 17:31:24.790 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2020-01-02 17:31:24.790 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2020-01-02 17:31:24.791 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2020-01-02 17:31:24.795 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2020-01-02 17:31:24.795 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[DEBUG] 2020-01-02 17:31:24.797 [main] NetUtil - Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+[DEBUG] 2020-01-02 17:31:24.797 [main] NetUtil - /proc/sys/net/core/somaxconn: 128
+[INFO ] 2020-01-02 17:31:24.805 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xb5bb77e0] REGISTERED
+[INFO ] 2020-01-02 17:31:24.807 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xb5bb77e0] BIND: 0.0.0.0/0.0.0.0:8080
+[INFO ] 2020-01-02 17:31:24.808 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xb5bb77e0, /0:0:0:0:0:0:0:0:8080] ACTIVE
+[INFO ] 2020-01-02 17:31:26.735 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xb5bb77e0, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x151de47d, /0:0:0:0:0:0:0:1:52122 => /0:0:0:0:0:0:0:1:8080]
+[INFO ] 2020-01-02 17:31:26.736 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xb5bb77e0, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x42f966a9, /0:0:0:0:0:0:0:1:52124 => /0:0:0:0:0:0:0:1:8080]
+[DEBUG] 2020-01-02 17:31:26.747 [nioEventLoopGroup-1-0] ResourceLeakDetector - -Dio.netty.leakDetectionLevel: simple
+[DEBUG] 2020-01-02 17:31:26.779 [nioEventLoopGroup-1-0] Recycler - -Dio.netty.recycler.maxCapacity: 262144
+[INFO ] 2020-01-02 17:31:26.796 [nioEventLoopGroup-1-0] ApiProtocol - /users?name=sujj&title=employee
+[DEBUG] 2020-01-02 17:31:26.800 [nioEventLoopGroup-1-0] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-02 17:31:26.801 [nioEventLoopGroup-1-0] ApiHandler - builder version 101
+[DEBUG] 2020-01-02 17:31:26.808 [nioEventLoopGroup-1-0] ZlibCodecFactory - -Dio.netty.noJdkZlibDecoder: true
+[DEBUG] 2020-01-02 17:31:26.808 [nioEventLoopGroup-1-0] ZlibCodecFactory - -Dio.netty.noJdkZlibEncoder: false
+[INFO ] 2020-01-02 17:31:26.834 [nioEventLoopGroup-1-0] ApiProtocol - /favicon.ico
+[DEBUG] 2020-01-02 17:31:26.834 [nioEventLoopGroup-1-0] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-02 17:31:53.551 [main] EmployeServiceMain - Start employee services
+[DEBUG] 2020-01-02 17:31:53.553 [main] EmployeServiceMain - Start employee services
+[DEBUG] 2020-01-02 17:31:53.559 [main] InternalLoggerFactory - Using SLF4J as the default logging framework
+[DEBUG] 2020-01-02 17:31:53.564 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+[DEBUG] 2020-01-02 17:31:53.592 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2020-01-02 17:31:53.592 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2020-01-02 17:31:53.592 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2020-01-02 17:31:53.593 [main] PlatformDependent0 - java.nio.Bits.unaligned: true
+[DEBUG] 2020-01-02 17:31:53.593 [main] PlatformDependent - Java version: 8
+[DEBUG] 2020-01-02 17:31:53.593 [main] PlatformDependent - -Dio.netty.noUnsafe: false
+[DEBUG] 2020-01-02 17:31:53.593 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2020-01-02 17:31:53.593 [main] PlatformDependent - -Dio.netty.noJavassist: false
+[DEBUG] 2020-01-02 17:31:53.594 [main] PlatformDependent - Javassist: unavailable
+[DEBUG] 2020-01-02 17:31:53.594 [main] PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[DEBUG] 2020-01-02 17:31:53.594 [main] PlatformDependent - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+[DEBUG] 2020-01-02 17:31:53.594 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2020-01-02 17:31:53.594 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2020-01-02 17:31:53.594 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2020-01-02 17:31:53.594 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[TRACE] 2020-01-02 17:31:53.597 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@12405818
+[TRACE] 2020-01-02 17:31:53.598 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@16267862
+[TRACE] 2020-01-02 17:31:53.598 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@453da22c
+[TRACE] 2020-01-02 17:31:53.598 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@71248c21
+[TRACE] 2020-01-02 17:31:53.598 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@442675e1
+[TRACE] 2020-01-02 17:31:53.598 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6166e06f
+[TRACE] 2020-01-02 17:31:53.598 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@49e202ad
+[TRACE] 2020-01-02 17:31:53.599 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@1c72da34
+[TRACE] 2020-01-02 17:31:53.599 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6b0c2d26
+[TRACE] 2020-01-02 17:31:53.599 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@3d3fcdb0
+[TRACE] 2020-01-02 17:31:53.599 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@641147d0
+[TRACE] 2020-01-02 17:31:53.599 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6e38921c
+[TRACE] 2020-01-02 17:31:53.599 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@64d7f7e0
+[TRACE] 2020-01-02 17:31:53.599 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@27c6e487
+[TRACE] 2020-01-02 17:31:53.599 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@49070868
+[TRACE] 2020-01-02 17:31:53.599 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6385cb26
+[TRACE] 2020-01-02 17:31:53.599 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@38364841
+[DEBUG] 2020-01-02 17:31:53.619 [main] DefaultChannelId - -Dio.netty.processId: 24971 (auto-detected)
+[DEBUG] 2020-01-02 17:31:53.620 [main] DefaultChannelId - -Dio.netty.machineId: e0:9d:31:ff:fe:db:34:36 (auto-detected)
+[DEBUG] 2020-01-02 17:31:53.621 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xf6906685c80b9142 (took 3 ms)
+[DEBUG] 2020-01-02 17:31:53.645 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2020-01-02 17:31:53.645 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2020-01-02 17:31:53.645 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2020-01-02 17:31:53.645 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[DEBUG] 2020-01-02 17:31:53.645 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] 2020-01-02 17:31:53.646 [main] PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[DEBUG] 2020-01-02 17:31:53.646 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2020-01-02 17:31:53.646 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2020-01-02 17:31:53.646 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2020-01-02 17:31:53.646 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2020-01-02 17:31:53.650 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2020-01-02 17:31:53.651 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[DEBUG] 2020-01-02 17:31:53.652 [main] NetUtil - Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+[DEBUG] 2020-01-02 17:31:53.653 [main] NetUtil - /proc/sys/net/core/somaxconn: 128
+[INFO ] 2020-01-02 17:31:53.661 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x73d43127] REGISTERED
+[INFO ] 2020-01-02 17:31:53.663 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x73d43127] BIND: 0.0.0.0/0.0.0.0:8080
+[INFO ] 2020-01-02 17:31:53.664 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x73d43127, /0:0:0:0:0:0:0:0:8080] ACTIVE
+[INFO ] 2020-01-02 17:31:55.800 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x73d43127, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x61fa0640, /0:0:0:0:0:0:0:1:52358 => /0:0:0:0:0:0:0:1:8080]
+[INFO ] 2020-01-02 17:31:55.800 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x73d43127, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x5864b8d7, /0:0:0:0:0:0:0:1:52360 => /0:0:0:0:0:0:0:1:8080]
+[DEBUG] 2020-01-02 17:31:55.812 [nioEventLoopGroup-1-1] ResourceLeakDetector - -Dio.netty.leakDetectionLevel: simple
+[DEBUG] 2020-01-02 17:31:55.841 [nioEventLoopGroup-1-0] Recycler - -Dio.netty.recycler.maxCapacity: 262144
+[INFO ] 2020-01-02 17:31:55.858 [nioEventLoopGroup-1-0] ApiProtocol - /users?name=sujj&title=employee
+[DEBUG] 2020-01-02 17:31:55.862 [nioEventLoopGroup-1-0] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-02 17:31:55.863 [nioEventLoopGroup-1-0] ApiHandler - builder version 101, api version 102
+[DEBUG] 2020-01-02 17:31:55.871 [nioEventLoopGroup-1-0] ZlibCodecFactory - -Dio.netty.noJdkZlibDecoder: true
+[DEBUG] 2020-01-02 17:31:55.871 [nioEventLoopGroup-1-0] ZlibCodecFactory - -Dio.netty.noJdkZlibEncoder: false
+[INFO ] 2020-01-02 17:31:55.901 [nioEventLoopGroup-1-0] ApiProtocol - /favicon.ico
+[DEBUG] 2020-01-02 17:31:55.902 [nioEventLoopGroup-1-0] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-02 17:32:37.788 [main] EmployeServiceMain - Start employee services
+[DEBUG] 2020-01-02 17:32:37.790 [main] EmployeServiceMain - Start employee services
+[DEBUG] 2020-01-02 17:32:37.796 [main] InternalLoggerFactory - Using SLF4J as the default logging framework
+[DEBUG] 2020-01-02 17:32:37.801 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+[DEBUG] 2020-01-02 17:32:37.826 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2020-01-02 17:32:37.826 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2020-01-02 17:32:37.826 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2020-01-02 17:32:37.826 [main] PlatformDependent0 - java.nio.Bits.unaligned: true
+[DEBUG] 2020-01-02 17:32:37.826 [main] PlatformDependent - Java version: 8
+[DEBUG] 2020-01-02 17:32:37.827 [main] PlatformDependent - -Dio.netty.noUnsafe: false
+[DEBUG] 2020-01-02 17:32:37.827 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2020-01-02 17:32:37.827 [main] PlatformDependent - -Dio.netty.noJavassist: false
+[DEBUG] 2020-01-02 17:32:37.827 [main] PlatformDependent - Javassist: unavailable
+[DEBUG] 2020-01-02 17:32:37.827 [main] PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[DEBUG] 2020-01-02 17:32:37.827 [main] PlatformDependent - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+[DEBUG] 2020-01-02 17:32:37.827 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2020-01-02 17:32:37.827 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2020-01-02 17:32:37.828 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2020-01-02 17:32:37.828 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[TRACE] 2020-01-02 17:32:37.831 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@12405818
+[TRACE] 2020-01-02 17:32:37.831 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@16267862
+[TRACE] 2020-01-02 17:32:37.831 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@453da22c
+[TRACE] 2020-01-02 17:32:37.831 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@71248c21
+[TRACE] 2020-01-02 17:32:37.831 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@442675e1
+[TRACE] 2020-01-02 17:32:37.832 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6166e06f
+[TRACE] 2020-01-02 17:32:37.832 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@49e202ad
+[TRACE] 2020-01-02 17:32:37.832 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@1c72da34
+[TRACE] 2020-01-02 17:32:37.832 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6b0c2d26
+[TRACE] 2020-01-02 17:32:37.832 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@3d3fcdb0
+[TRACE] 2020-01-02 17:32:37.832 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@641147d0
+[TRACE] 2020-01-02 17:32:37.832 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6e38921c
+[TRACE] 2020-01-02 17:32:37.832 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@64d7f7e0
+[TRACE] 2020-01-02 17:32:37.832 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@27c6e487
+[TRACE] 2020-01-02 17:32:37.833 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@49070868
+[TRACE] 2020-01-02 17:32:37.833 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6385cb26
+[TRACE] 2020-01-02 17:32:37.833 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@38364841
+[DEBUG] 2020-01-02 17:32:37.852 [main] DefaultChannelId - -Dio.netty.processId: 25030 (auto-detected)
+[DEBUG] 2020-01-02 17:32:37.853 [main] DefaultChannelId - -Dio.netty.machineId: e0:9d:31:ff:fe:db:34:36 (auto-detected)
+[DEBUG] 2020-01-02 17:32:37.854 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x491d8dc8a6df7445 (took 4 ms)
+[DEBUG] 2020-01-02 17:32:37.876 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2020-01-02 17:32:37.876 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2020-01-02 17:32:37.876 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2020-01-02 17:32:37.876 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[DEBUG] 2020-01-02 17:32:37.876 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] 2020-01-02 17:32:37.876 [main] PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[DEBUG] 2020-01-02 17:32:37.877 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2020-01-02 17:32:37.877 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2020-01-02 17:32:37.877 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2020-01-02 17:32:37.877 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2020-01-02 17:32:37.881 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2020-01-02 17:32:37.881 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[DEBUG] 2020-01-02 17:32:37.882 [main] NetUtil - Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+[DEBUG] 2020-01-02 17:32:37.882 [main] NetUtil - /proc/sys/net/core/somaxconn: 128
+[INFO ] 2020-01-02 17:32:37.889 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xcb86c71e] REGISTERED
+[INFO ] 2020-01-02 17:32:37.890 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xcb86c71e] BIND: 0.0.0.0/0.0.0.0:8080
+[INFO ] 2020-01-02 17:32:37.891 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xcb86c71e, /0:0:0:0:0:0:0:0:8080] ACTIVE
+[INFO ] 2020-01-02 17:32:42.162 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xcb86c71e, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x59030e3f, /0:0:0:0:0:0:0:1:52730 => /0:0:0:0:0:0:0:1:8080]
+[INFO ] 2020-01-02 17:32:42.163 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xcb86c71e, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x0246ad03, /0:0:0:0:0:0:0:1:52732 => /0:0:0:0:0:0:0:1:8080]
+[DEBUG] 2020-01-02 17:32:42.174 [nioEventLoopGroup-1-0] ResourceLeakDetector - -Dio.netty.leakDetectionLevel: simple
+[DEBUG] 2020-01-02 17:32:42.204 [nioEventLoopGroup-1-0] Recycler - -Dio.netty.recycler.maxCapacity: 262144
+[INFO ] 2020-01-02 17:32:42.220 [nioEventLoopGroup-1-0] ApiProtocol - /users?name=sujj&title=employee
+[DEBUG] 2020-01-02 17:32:42.223 [nioEventLoopGroup-1-0] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[ERROR] 2020-01-02 17:32:42.224 [nioEventLoopGroup-1-0] ApiHandler - com.bg.microservices.services.employeeService.resources.UsersResource
+[DEBUG] 2020-01-02 17:32:42.231 [nioEventLoopGroup-1-0] ZlibCodecFactory - -Dio.netty.noJdkZlibDecoder: true
+[DEBUG] 2020-01-02 17:32:42.231 [nioEventLoopGroup-1-0] ZlibCodecFactory - -Dio.netty.noJdkZlibEncoder: false
+[INFO ] 2020-01-02 17:32:42.257 [nioEventLoopGroup-1-0] ApiProtocol - /favicon.ico
+[DEBUG] 2020-01-02 17:32:42.257 [nioEventLoopGroup-1-0] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-02 17:34:21.448 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xcb86c71e, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xcbc26a60, /0:0:0:0:0:0:0:1:53534 => /0:0:0:0:0:0:0:1:8080]
+[INFO ] 2020-01-02 17:34:21.476 [nioEventLoopGroup-1-1] ApiProtocol - /user?name=sujj&title=employee
+[DEBUG] 2020-01-02 17:34:21.477 [nioEventLoopGroup-1-1] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-02 17:34:21.479 [nioEventLoopGroup-1-1] UserResource - parameter: name
+[INFO ] 2020-01-02 17:34:21.479 [nioEventLoopGroup-1-1] UserResource - parameter: title
+[INFO ] 2020-01-02 17:34:21.501 [nioEventLoopGroup-1-1] ApiProtocol - /favicon.ico
+[DEBUG] 2020-01-02 17:34:21.501 [nioEventLoopGroup-1-1] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-02 17:40:17.423 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xcb86c71e, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x41c808ca, /0:0:0:0:0:0:0:1:56388 => /0:0:0:0:0:0:0:1:8080]
+[INFO ] 2020-01-02 17:40:17.424 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xcb86c71e, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x9c34cfbd, /0:0:0:0:0:0:0:1:56390 => /0:0:0:0:0:0:0:1:8080]
+[INFO ] 2020-01-02 17:40:17.464 [nioEventLoopGroup-1-4] ApiProtocol - /user?uid=100001
+[DEBUG] 2020-01-02 17:40:17.465 [nioEventLoopGroup-1-4] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-02 17:40:17.465 [nioEventLoopGroup-1-4] UserResource - parameter: uid
+[INFO ] 2020-01-02 17:40:17.485 [nioEventLoopGroup-1-4] ApiProtocol - /favicon.ico
+[DEBUG] 2020-01-02 17:40:17.485 [nioEventLoopGroup-1-4] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-02 17:40:33.127 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xcb86c71e, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xf8fa95bc, /0:0:0:0:0:0:0:1:56520 => /0:0:0:0:0:0:0:1:8080]
+[INFO ] 2020-01-02 17:40:33.128 [nioEventLoopGroup-1-4] ApiProtocol - /user/:uid=100001
+[DEBUG] 2020-01-02 17:40:33.129 [nioEventLoopGroup-1-4] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-02 17:40:33.129 [nioEventLoopGroup-1-4] UserResource - parameter: uid
+[INFO ] 2020-01-02 17:40:33.148 [nioEventLoopGroup-1-4] ApiProtocol - /favicon.ico
+[DEBUG] 2020-01-02 17:40:33.148 [nioEventLoopGroup-1-4] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-02 17:40:44.022 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xcb86c71e, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x7239e41e, /0:0:0:0:0:0:0:1:56610 => /0:0:0:0:0:0:0:1:8080]
+[INFO ] 2020-01-02 17:40:44.028 [nioEventLoopGroup-1-4] ApiProtocol - /user?uid=100001
+[DEBUG] 2020-01-02 17:40:44.029 [nioEventLoopGroup-1-4] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-02 17:40:44.030 [nioEventLoopGroup-1-4] UserResource - parameter: uid
+[INFO ] 2020-01-02 17:40:44.060 [nioEventLoopGroup-1-4] ApiProtocol - /favicon.ico
+[DEBUG] 2020-01-02 17:40:44.060 [nioEventLoopGroup-1-4] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-02 17:40:51.060 [nioEventLoopGroup-1-5] ApiProtocol - /user?uid=100001
+[DEBUG] 2020-01-02 17:40:51.063 [nioEventLoopGroup-1-5] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-02 17:40:51.063 [nioEventLoopGroup-1-5] UserResource - parameter: uid
+[INFO ] 2020-01-02 17:40:51.095 [nioEventLoopGroup-1-4] ApiProtocol - /favicon.ico
+[DEBUG] 2020-01-02 17:40:51.095 [nioEventLoopGroup-1-4] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-02 17:40:54.010 [nioEventLoopGroup-1-4] ApiProtocol - /user?uid=100001
+[DEBUG] 2020-01-02 17:40:54.010 [nioEventLoopGroup-1-4] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-02 17:40:54.010 [nioEventLoopGroup-1-4] UserResource - parameter: uid
+[INFO ] 2020-01-02 17:40:54.023 [nioEventLoopGroup-1-4] ApiProtocol - /favicon.ico
+[DEBUG] 2020-01-02 17:40:54.024 [nioEventLoopGroup-1-4] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-02 17:40:54.569 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xcb86c71e, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x8b1e129f, /0:0:0:0:0:0:0:1:56696 => /0:0:0:0:0:0:0:1:8080]
+[INFO ] 2020-01-02 17:40:54.569 [nioEventLoopGroup-1-4] ApiProtocol - /user?uid=100001
+[DEBUG] 2020-01-02 17:40:54.570 [nioEventLoopGroup-1-4] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-02 17:40:54.570 [nioEventLoopGroup-1-4] UserResource - parameter: uid
+[INFO ] 2020-01-02 17:40:54.582 [nioEventLoopGroup-1-4] ApiProtocol - /favicon.ico
+[DEBUG] 2020-01-02 17:40:54.583 [nioEventLoopGroup-1-4] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-02 17:40:54.779 [nioEventLoopGroup-1-4] ApiProtocol - /user?uid=100001
+[DEBUG] 2020-01-02 17:40:54.780 [nioEventLoopGroup-1-4] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-02 17:40:54.780 [nioEventLoopGroup-1-4] UserResource - parameter: uid
+[INFO ] 2020-01-02 17:40:54.793 [nioEventLoopGroup-1-4] ApiProtocol - /favicon.ico
+[DEBUG] 2020-01-02 17:40:54.794 [nioEventLoopGroup-1-4] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-02 17:41:01.573 [main] EmployeServiceMain - Start employee services
+[DEBUG] 2020-01-02 17:41:01.575 [main] EmployeServiceMain - Start employee services
+[DEBUG] 2020-01-02 17:41:01.582 [main] InternalLoggerFactory - Using SLF4J as the default logging framework
+[DEBUG] 2020-01-02 17:41:01.585 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+[DEBUG] 2020-01-02 17:41:01.610 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2020-01-02 17:41:01.610 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2020-01-02 17:41:01.610 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2020-01-02 17:41:01.611 [main] PlatformDependent0 - java.nio.Bits.unaligned: true
+[DEBUG] 2020-01-02 17:41:01.611 [main] PlatformDependent - Java version: 8
+[DEBUG] 2020-01-02 17:41:01.611 [main] PlatformDependent - -Dio.netty.noUnsafe: false
+[DEBUG] 2020-01-02 17:41:01.611 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2020-01-02 17:41:01.612 [main] PlatformDependent - -Dio.netty.noJavassist: false
+[DEBUG] 2020-01-02 17:41:01.612 [main] PlatformDependent - Javassist: unavailable
+[DEBUG] 2020-01-02 17:41:01.612 [main] PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[DEBUG] 2020-01-02 17:41:01.612 [main] PlatformDependent - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+[DEBUG] 2020-01-02 17:41:01.613 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2020-01-02 17:41:01.613 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2020-01-02 17:41:01.613 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2020-01-02 17:41:01.613 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[TRACE] 2020-01-02 17:41:01.616 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@12405818
+[TRACE] 2020-01-02 17:41:01.617 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@16267862
+[TRACE] 2020-01-02 17:41:01.617 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@453da22c
+[TRACE] 2020-01-02 17:41:01.617 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@71248c21
+[TRACE] 2020-01-02 17:41:01.617 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@442675e1
+[TRACE] 2020-01-02 17:41:01.617 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6166e06f
+[TRACE] 2020-01-02 17:41:01.618 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@49e202ad
+[TRACE] 2020-01-02 17:41:01.618 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@1c72da34
+[TRACE] 2020-01-02 17:41:01.618 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6b0c2d26
+[TRACE] 2020-01-02 17:41:01.618 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@3d3fcdb0
+[TRACE] 2020-01-02 17:41:01.618 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@641147d0
+[TRACE] 2020-01-02 17:41:01.618 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6e38921c
+[TRACE] 2020-01-02 17:41:01.618 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@64d7f7e0
+[TRACE] 2020-01-02 17:41:01.618 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@27c6e487
+[TRACE] 2020-01-02 17:41:01.619 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@49070868
+[TRACE] 2020-01-02 17:41:01.619 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6385cb26
+[TRACE] 2020-01-02 17:41:01.619 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@38364841
+[DEBUG] 2020-01-02 17:41:01.642 [main] DefaultChannelId - -Dio.netty.processId: 25412 (auto-detected)
+[DEBUG] 2020-01-02 17:41:01.643 [main] DefaultChannelId - -Dio.netty.machineId: e0:9d:31:ff:fe:db:34:36 (auto-detected)
+[DEBUG] 2020-01-02 17:41:01.645 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xe0c724c2d06adfcb (took 4 ms)
+[DEBUG] 2020-01-02 17:41:01.664 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2020-01-02 17:41:01.664 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2020-01-02 17:41:01.664 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2020-01-02 17:41:01.664 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[DEBUG] 2020-01-02 17:41:01.664 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] 2020-01-02 17:41:01.665 [main] PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[DEBUG] 2020-01-02 17:41:01.665 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2020-01-02 17:41:01.665 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2020-01-02 17:41:01.665 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2020-01-02 17:41:01.665 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2020-01-02 17:41:01.670 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2020-01-02 17:41:01.670 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[DEBUG] 2020-01-02 17:41:01.672 [main] NetUtil - Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+[DEBUG] 2020-01-02 17:41:01.672 [main] NetUtil - /proc/sys/net/core/somaxconn: 128
+[INFO ] 2020-01-02 17:41:01.680 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xb10bd601] REGISTERED
+[INFO ] 2020-01-02 17:41:01.681 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xb10bd601] BIND: 0.0.0.0/0.0.0.0:8080
+[INFO ] 2020-01-02 17:41:01.682 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xb10bd601, /0:0:0:0:0:0:0:0:8080] ACTIVE
+[INFO ] 2020-01-02 17:41:04.285 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xb10bd601, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x53ea0b8b, /0:0:0:0:0:0:0:1:56778 => /0:0:0:0:0:0:0:1:8080]
+[INFO ] 2020-01-02 17:41:04.286 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xb10bd601, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xf269573e, /0:0:0:0:0:0:0:1:56780 => /0:0:0:0:0:0:0:1:8080]
+[DEBUG] 2020-01-02 17:41:04.298 [nioEventLoopGroup-1-0] ResourceLeakDetector - -Dio.netty.leakDetectionLevel: simple
+[DEBUG] 2020-01-02 17:41:04.331 [nioEventLoopGroup-1-0] Recycler - -Dio.netty.recycler.maxCapacity: 262144
+[INFO ] 2020-01-02 17:41:04.349 [nioEventLoopGroup-1-0] ApiProtocol - /user?uid=100001
+[DEBUG] 2020-01-02 17:41:04.353 [nioEventLoopGroup-1-0] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[DEBUG] 2020-01-02 17:41:04.362 [nioEventLoopGroup-1-0] ZlibCodecFactory - -Dio.netty.noJdkZlibDecoder: true
+[DEBUG] 2020-01-02 17:41:04.362 [nioEventLoopGroup-1-0] ZlibCodecFactory - -Dio.netty.noJdkZlibEncoder: false
+[INFO ] 2020-01-02 17:41:04.388 [nioEventLoopGroup-1-0] ApiProtocol - /favicon.ico
+[DEBUG] 2020-01-02 17:41:04.388 [nioEventLoopGroup-1-0] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-02 17:41:10.808 [nioEventLoopGroup-1-1] ApiProtocol - /user/uid=100001
+[DEBUG] 2020-01-02 17:41:10.810 [nioEventLoopGroup-1-1] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-02 17:41:10.833 [nioEventLoopGroup-1-1] ApiProtocol - /favicon.ico
+[DEBUG] 2020-01-02 17:41:10.834 [nioEventLoopGroup-1-1] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-02 17:41:19.423 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xb10bd601, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xabb45016, /0:0:0:0:0:0:0:1:56902 => /0:0:0:0:0:0:0:1:8080]
+[INFO ] 2020-01-02 17:41:19.426 [nioEventLoopGroup-1-1] ApiProtocol - /user/:uid=100001
+[DEBUG] 2020-01-02 17:41:19.426 [nioEventLoopGroup-1-1] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-02 17:41:19.462 [nioEventLoopGroup-1-1] ApiProtocol - /favicon.ico
+[DEBUG] 2020-01-02 17:41:19.463 [nioEventLoopGroup-1-1] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-02 17:41:57.151 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xb10bd601, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xe29c92d6, /0:0:0:0:0:0:0:1:57208 => /0:0:0:0:0:0:0:1:8080]
+[INFO ] 2020-01-02 17:41:57.161 [nioEventLoopGroup-1-2] ApiProtocol - /user/:uid=100001
+[DEBUG] 2020-01-02 17:41:57.162 [nioEventLoopGroup-1-2] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-02 17:41:57.184 [nioEventLoopGroup-1-2] ApiProtocol - /favicon.ico
+[DEBUG] 2020-01-02 17:41:57.185 [nioEventLoopGroup-1-2] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-02 17:41:57.935 [nioEventLoopGroup-1-2] ApiProtocol - /user/:uid=100001
+[DEBUG] 2020-01-02 17:41:57.936 [nioEventLoopGroup-1-2] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-02 17:41:57.949 [nioEventLoopGroup-1-2] ApiProtocol - /favicon.ico
+[DEBUG] 2020-01-02 17:41:57.949 [nioEventLoopGroup-1-2] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-02 17:41:58.177 [nioEventLoopGroup-1-2] ApiProtocol - /user/:uid=100001
+[DEBUG] 2020-01-02 17:41:58.178 [nioEventLoopGroup-1-2] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-02 17:41:58.192 [nioEventLoopGroup-1-2] ApiProtocol - /favicon.ico
+[DEBUG] 2020-01-02 17:41:58.193 [nioEventLoopGroup-1-2] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-02 17:41:58.496 [nioEventLoopGroup-1-2] ApiProtocol - /user/:uid=100001
+[DEBUG] 2020-01-02 17:41:58.496 [nioEventLoopGroup-1-2] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-02 17:41:58.510 [nioEventLoopGroup-1-2] ApiProtocol - /favicon.ico
+[DEBUG] 2020-01-02 17:41:58.510 [nioEventLoopGroup-1-2] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-02 17:42:03.498 [main] EmployeServiceMain - Start employee services
+[DEBUG] 2020-01-02 17:42:03.500 [main] EmployeServiceMain - Start employee services
+[DEBUG] 2020-01-02 17:42:03.507 [main] InternalLoggerFactory - Using SLF4J as the default logging framework
+[DEBUG] 2020-01-02 17:42:03.511 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+[DEBUG] 2020-01-02 17:42:03.532 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2020-01-02 17:42:03.533 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2020-01-02 17:42:03.533 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2020-01-02 17:42:03.533 [main] PlatformDependent0 - java.nio.Bits.unaligned: true
+[DEBUG] 2020-01-02 17:42:03.533 [main] PlatformDependent - Java version: 8
+[DEBUG] 2020-01-02 17:42:03.534 [main] PlatformDependent - -Dio.netty.noUnsafe: false
+[DEBUG] 2020-01-02 17:42:03.534 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2020-01-02 17:42:03.534 [main] PlatformDependent - -Dio.netty.noJavassist: false
+[DEBUG] 2020-01-02 17:42:03.534 [main] PlatformDependent - Javassist: unavailable
+[DEBUG] 2020-01-02 17:42:03.534 [main] PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[DEBUG] 2020-01-02 17:42:03.534 [main] PlatformDependent - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+[DEBUG] 2020-01-02 17:42:03.534 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2020-01-02 17:42:03.534 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2020-01-02 17:42:03.535 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2020-01-02 17:42:03.535 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[TRACE] 2020-01-02 17:42:03.538 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@12405818
+[TRACE] 2020-01-02 17:42:03.539 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@16267862
+[TRACE] 2020-01-02 17:42:03.539 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@453da22c
+[TRACE] 2020-01-02 17:42:03.539 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@71248c21
+[TRACE] 2020-01-02 17:42:03.539 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@442675e1
+[TRACE] 2020-01-02 17:42:03.539 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6166e06f
+[TRACE] 2020-01-02 17:42:03.539 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@49e202ad
+[TRACE] 2020-01-02 17:42:03.539 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@1c72da34
+[TRACE] 2020-01-02 17:42:03.539 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6b0c2d26
+[TRACE] 2020-01-02 17:42:03.539 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@3d3fcdb0
+[TRACE] 2020-01-02 17:42:03.540 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@641147d0
+[TRACE] 2020-01-02 17:42:03.540 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6e38921c
+[TRACE] 2020-01-02 17:42:03.540 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@64d7f7e0
+[TRACE] 2020-01-02 17:42:03.540 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@27c6e487
+[TRACE] 2020-01-02 17:42:03.540 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@49070868
+[TRACE] 2020-01-02 17:42:03.540 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6385cb26
+[TRACE] 2020-01-02 17:42:03.540 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@38364841
+[DEBUG] 2020-01-02 17:42:03.561 [main] DefaultChannelId - -Dio.netty.processId: 25478 (auto-detected)
+[DEBUG] 2020-01-02 17:42:03.562 [main] DefaultChannelId - -Dio.netty.machineId: e0:9d:31:ff:fe:db:34:36 (auto-detected)
+[DEBUG] 2020-01-02 17:42:03.563 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xb11f35fe6079b3de (took 3 ms)
+[DEBUG] 2020-01-02 17:42:03.579 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2020-01-02 17:42:03.579 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2020-01-02 17:42:03.579 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2020-01-02 17:42:03.579 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[DEBUG] 2020-01-02 17:42:03.579 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] 2020-01-02 17:42:03.579 [main] PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[DEBUG] 2020-01-02 17:42:03.579 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2020-01-02 17:42:03.579 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2020-01-02 17:42:03.580 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2020-01-02 17:42:03.580 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2020-01-02 17:42:03.583 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2020-01-02 17:42:03.583 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[DEBUG] 2020-01-02 17:42:03.584 [main] NetUtil - Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+[DEBUG] 2020-01-02 17:42:03.584 [main] NetUtil - /proc/sys/net/core/somaxconn: 128
+[INFO ] 2020-01-02 17:42:03.591 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xa4347183] REGISTERED
+[INFO ] 2020-01-02 17:42:03.593 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xa4347183] BIND: 0.0.0.0/0.0.0.0:8080
+[INFO ] 2020-01-02 17:42:03.595 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xa4347183, /0:0:0:0:0:0:0:0:8080] ACTIVE
+[INFO ] 2020-01-02 17:42:05.900 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xa4347183, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x4919cd4f, /0:0:0:0:0:0:0:1:57274 => /0:0:0:0:0:0:0:1:8080]
+[INFO ] 2020-01-02 17:42:05.902 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xa4347183, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x74b19154, /0:0:0:0:0:0:0:1:57276 => /0:0:0:0:0:0:0:1:8080]
+[DEBUG] 2020-01-02 17:42:05.913 [nioEventLoopGroup-1-0] ResourceLeakDetector - -Dio.netty.leakDetectionLevel: simple
+[DEBUG] 2020-01-02 17:42:05.942 [nioEventLoopGroup-1-0] Recycler - -Dio.netty.recycler.maxCapacity: 262144
+[INFO ] 2020-01-02 17:42:05.957 [nioEventLoopGroup-1-0] ApiProtocol - /user/:uid=100001
+[DEBUG] 2020-01-02 17:42:05.961 [nioEventLoopGroup-1-0] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-02 17:42:05.963 [nioEventLoopGroup-1-0] UserResource - parameter: uid
+[DEBUG] 2020-01-02 17:42:05.969 [nioEventLoopGroup-1-0] ZlibCodecFactory - -Dio.netty.noJdkZlibDecoder: true
+[DEBUG] 2020-01-02 17:42:05.969 [nioEventLoopGroup-1-0] ZlibCodecFactory - -Dio.netty.noJdkZlibEncoder: false
+[INFO ] 2020-01-02 17:42:05.995 [nioEventLoopGroup-1-0] ApiProtocol - /favicon.ico
+[DEBUG] 2020-01-02 17:42:05.995 [nioEventLoopGroup-1-0] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-02 17:42:36.545 [main] EmployeServiceMain - Start employee services
+[DEBUG] 2020-01-02 17:42:36.547 [main] EmployeServiceMain - Start employee services
+[DEBUG] 2020-01-02 17:42:36.553 [main] InternalLoggerFactory - Using SLF4J as the default logging framework
+[DEBUG] 2020-01-02 17:42:36.558 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+[DEBUG] 2020-01-02 17:42:36.583 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2020-01-02 17:42:36.583 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2020-01-02 17:42:36.584 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2020-01-02 17:42:36.584 [main] PlatformDependent0 - java.nio.Bits.unaligned: true
+[DEBUG] 2020-01-02 17:42:36.584 [main] PlatformDependent - Java version: 8
+[DEBUG] 2020-01-02 17:42:36.584 [main] PlatformDependent - -Dio.netty.noUnsafe: false
+[DEBUG] 2020-01-02 17:42:36.584 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2020-01-02 17:42:36.585 [main] PlatformDependent - -Dio.netty.noJavassist: false
+[DEBUG] 2020-01-02 17:42:36.585 [main] PlatformDependent - Javassist: unavailable
+[DEBUG] 2020-01-02 17:42:36.585 [main] PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[DEBUG] 2020-01-02 17:42:36.585 [main] PlatformDependent - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+[DEBUG] 2020-01-02 17:42:36.585 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2020-01-02 17:42:36.585 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2020-01-02 17:42:36.586 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2020-01-02 17:42:36.586 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[TRACE] 2020-01-02 17:42:36.589 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@12405818
+[TRACE] 2020-01-02 17:42:36.589 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@16267862
+[TRACE] 2020-01-02 17:42:36.590 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@453da22c
+[TRACE] 2020-01-02 17:42:36.590 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@71248c21
+[TRACE] 2020-01-02 17:42:36.590 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@442675e1
+[TRACE] 2020-01-02 17:42:36.590 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6166e06f
+[TRACE] 2020-01-02 17:42:36.590 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@49e202ad
+[TRACE] 2020-01-02 17:42:36.590 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@1c72da34
+[TRACE] 2020-01-02 17:42:36.590 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6b0c2d26
+[TRACE] 2020-01-02 17:42:36.590 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@3d3fcdb0
+[TRACE] 2020-01-02 17:42:36.590 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@641147d0
+[TRACE] 2020-01-02 17:42:36.591 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6e38921c
+[TRACE] 2020-01-02 17:42:36.591 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@64d7f7e0
+[TRACE] 2020-01-02 17:42:36.591 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@27c6e487
+[TRACE] 2020-01-02 17:42:36.591 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@49070868
+[TRACE] 2020-01-02 17:42:36.591 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6385cb26
+[TRACE] 2020-01-02 17:42:36.591 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@38364841
+[DEBUG] 2020-01-02 17:42:36.613 [main] DefaultChannelId - -Dio.netty.processId: 25540 (auto-detected)
+[DEBUG] 2020-01-02 17:42:36.614 [main] DefaultChannelId - -Dio.netty.machineId: e0:9d:31:ff:fe:db:34:36 (auto-detected)
+[DEBUG] 2020-01-02 17:42:36.614 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x02ea55bb178ec7d2 (took 3 ms)
+[DEBUG] 2020-01-02 17:42:36.632 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2020-01-02 17:42:36.633 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2020-01-02 17:42:36.633 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2020-01-02 17:42:36.633 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[DEBUG] 2020-01-02 17:42:36.633 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] 2020-01-02 17:42:36.633 [main] PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[DEBUG] 2020-01-02 17:42:36.633 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2020-01-02 17:42:36.633 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2020-01-02 17:42:36.633 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2020-01-02 17:42:36.633 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2020-01-02 17:42:36.637 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2020-01-02 17:42:36.637 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[DEBUG] 2020-01-02 17:42:36.638 [main] NetUtil - Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+[DEBUG] 2020-01-02 17:42:36.638 [main] NetUtil - /proc/sys/net/core/somaxconn: 128
+[INFO ] 2020-01-02 17:42:36.647 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x51c6214d] REGISTERED
+[INFO ] 2020-01-02 17:42:36.648 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x51c6214d] BIND: 0.0.0.0/0.0.0.0:8080
+[INFO ] 2020-01-02 17:42:36.650 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x51c6214d, /0:0:0:0:0:0:0:0:8080] ACTIVE
+[INFO ] 2020-01-02 17:42:38.683 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x51c6214d, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xf61c2b3f, /0:0:0:0:0:0:0:1:57542 => /0:0:0:0:0:0:0:1:8080]
+[INFO ] 2020-01-02 17:42:38.683 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x51c6214d, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x9bdb4ef9, /0:0:0:0:0:0:0:1:57544 => /0:0:0:0:0:0:0:1:8080]
+[DEBUG] 2020-01-02 17:42:38.694 [nioEventLoopGroup-1-0] ResourceLeakDetector - -Dio.netty.leakDetectionLevel: simple
+[DEBUG] 2020-01-02 17:42:38.724 [nioEventLoopGroup-1-0] Recycler - -Dio.netty.recycler.maxCapacity: 262144
+[INFO ] 2020-01-02 17:42:38.740 [nioEventLoopGroup-1-0] ApiProtocol - /user/:uid=100001
+[DEBUG] 2020-01-02 17:42:38.745 [nioEventLoopGroup-1-0] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[DEBUG] 2020-01-02 17:42:38.753 [nioEventLoopGroup-1-0] ZlibCodecFactory - -Dio.netty.noJdkZlibDecoder: true
+[DEBUG] 2020-01-02 17:42:38.753 [nioEventLoopGroup-1-0] ZlibCodecFactory - -Dio.netty.noJdkZlibEncoder: false
+[INFO ] 2020-01-02 17:42:38.779 [nioEventLoopGroup-1-0] ApiProtocol - /favicon.ico
+[DEBUG] 2020-01-02 17:42:38.779 [nioEventLoopGroup-1-0] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-02 17:42:55.646 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x51c6214d, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x16f7ae87, /0:0:0:0:0:0:0:1:57682 => /0:0:0:0:0:0:0:1:8080]
+[INFO ] 2020-01-02 17:42:55.673 [nioEventLoopGroup-1-3] ApiProtocol - /user/:10001
+[DEBUG] 2020-01-02 17:42:55.674 [nioEventLoopGroup-1-3] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-02 17:42:55.698 [nioEventLoopGroup-1-3] ApiProtocol - /favicon.ico
+[DEBUG] 2020-01-02 17:42:55.699 [nioEventLoopGroup-1-3] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1

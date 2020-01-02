@@ -24,7 +24,7 @@ public class ApiProtocol {
 
     private static final Logger logger = LoggerFactory.getLogger(ApiProtocol.class);
 
-    private int                       build      = 101;
+    private int                       build      = 102;
     private String                    version    = "1.0";
     private String                    channel    = "bg.micro";
     private String                    geo        = null;

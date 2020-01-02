@@ -69,6 +69,7 @@ public class ApiHandler {
         }
 
         if (apiProtocol.getBuild() < api.getBuild()){
+        	logger.info("builder version {}, api version {}",apiProtocol.getBuild(),api.getBuild() );
             return ErrorHandler.error(StatusCode.VERSION_IS_TOO_LOW);
         }
 
