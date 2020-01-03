@@ -148,8 +148,10 @@ public class ApiProtocol {
         for (Map.Entry<String, Api> entry : set) {
             Api api = entry.getValue();
             Pattern pattern = Pattern.compile("^" + api.getRegex() + "$");
+            logger.debug("endpoint {} api regex {}",endpoint,api.getRegex());
             Matcher matcher = pattern.matcher(endpoint);
             if (matcher.find()) {
+            	logger.debug("api name {}",api.getName());
                 this.api = api.getName();
                 if (matcher.groupCount() > 0) {
                     for (int i = 0; i < matcher.groupCount(); i++) {

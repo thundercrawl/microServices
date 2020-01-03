@@ -1,6 +1,7 @@
 package com.bg.microservice.share.api;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -10,15 +11,16 @@ import java.util.Set;
  */
 public class Api {
 
+	private static String split = "\\|";
     private String       name;  // endpoint
     private String       regex;
     private List<String> parameterNames;
-    private Set<String>  httpMethod;
+    private HashMap<String,String>  http2Method;
     private String       resource;
     private int          build;
 
     public Api() {
-        httpMethod = new HashSet<>();
+        http2Method = new HashMap<>();
         parameterNames = new ArrayList<>();
     }
 
@@ -52,8 +54,8 @@ public class Api {
         this.regex = stringBuilder.toString();
     }
 
-    public Set<String> getHttpMethod() {
-        return httpMethod;
+    public HashMap<String,String> getHttpMethod() {
+        return http2Method;
     }
 
     public int getBuild() {
@@ -65,7 +67,8 @@ public class Api {
     }
 
     public void addHttpMethod(String httpMethod) {
-        this.httpMethod.add(httpMethod);
+    	String[]h2m = httpMethod.split(split);
+        this.http2Method.put(h2m[0], h2m[1]);
     }
 
     public String getResource() {

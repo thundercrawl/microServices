@@ -20,5 +20,12 @@ public class UserResource extends BaseResource {
 		
 		return new Result(new Info("Get Succeed!"));
 	}
+	
+	public Result getUID()
+	{
+		this.apiProtocol.getParameters().keySet().forEach(n -> logger.info("parameter: {}",n));;
+		
+		return new Result(new Info("Get Succeed! getUID"));
+	}
 
 }

@@ -23,7 +23,7 @@ public class ApiRoute {
 
     private static final String apiNode       = "api";
     private static final String apiName       = "name";
-    private static final String apiHttpMethod = "method";
+    private static final String apiHttp2Method = "method";
     private static final String apiResource   = "resource";
     private static final String apiBuild      = "build";
 
@@ -55,7 +55,7 @@ public class ApiRoute {
                             case apiName:
                                 api.setName(value);
                                 break;
-                            case apiHttpMethod:
+                            case apiHttp2Method:
                                 api.addHttpMethod(value);
                                 break;
                             case apiResource:

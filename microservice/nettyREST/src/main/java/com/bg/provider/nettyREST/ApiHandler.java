@@ -69,11 +69,12 @@ public class ApiHandler {
         }
 
         if (apiProtocol.getBuild() < api.getBuild()){
-        	logger.info("builder version {}, api version {}",apiProtocol.getBuild(),api.getBuild() );
+        	logger.error("builder version {}, api version {}",apiProtocol.getBuild(),api.getBuild() );
             return ErrorHandler.error(StatusCode.VERSION_IS_TOO_LOW);
         }
 
-        if(api.getHttpMethod() != null && !api.getHttpMethod().contains(apiProtocol.getMethod().toString().toLowerCase())){
+        if(api.getHttpMethod() != null && !api.getHttpMethod().keySet().contains(apiProtocol.getMethod().toString().toLowerCase())){
+        	logger.error("method in api {} , protocol method {}",api.getHttpMethod().keySet(),apiProtocol.getMethod().toString());
             return ErrorHandler.error(StatusCode.REQUEST_MODE_ERROR);
         }
 
@@ -99,7 +100,7 @@ public class ApiHandler {
         }
 
         try {
-            method = classname.getMethod(apiProtocol.getMethod().toString().toLowerCase());
+            method = classname.getMethod(api.getHttpMethod().get(apiProtocol.getMethod().toString().toLowerCase()));
         } catch (NoSuchMethodException e) {
             logger.error(e.getMessage());
             return ErrorHandler.error(StatusCode.API_SERVER_ERROR);
