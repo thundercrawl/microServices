@@ -3658,3 +3658,892 @@
 [DEBUG] 2020-01-03 16:14:03.561 [nioEventLoopGroup-1-0] ApiProtocol - endpoint /favicon.ico api regex /user
 [DEBUG] 2020-01-03 16:14:03.561 [nioEventLoopGroup-1-0] ApiProtocol - endpoint /favicon.ico api regex /employee
 [DEBUG] 2020-01-03 16:14:03.561 [nioEventLoopGroup-1-0] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-03 16:24:52.489 [main] EmployeServiceMain - Start employee services
+[DEBUG] 2020-01-03 16:24:52.491 [main] EmployeServiceMain - Start employee services
+[DEBUG] 2020-01-03 16:24:52.497 [main] InternalLoggerFactory - Using SLF4J as the default logging framework
+[DEBUG] 2020-01-03 16:24:52.501 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+[DEBUG] 2020-01-03 16:24:52.528 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2020-01-03 16:24:52.528 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2020-01-03 16:24:52.529 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2020-01-03 16:24:52.529 [main] PlatformDependent0 - java.nio.Bits.unaligned: true
+[DEBUG] 2020-01-03 16:24:52.529 [main] PlatformDependent - Java version: 8
+[DEBUG] 2020-01-03 16:24:52.529 [main] PlatformDependent - -Dio.netty.noUnsafe: false
+[DEBUG] 2020-01-03 16:24:52.529 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2020-01-03 16:24:52.530 [main] PlatformDependent - -Dio.netty.noJavassist: false
+[DEBUG] 2020-01-03 16:24:52.530 [main] PlatformDependent - Javassist: unavailable
+[DEBUG] 2020-01-03 16:24:52.530 [main] PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[DEBUG] 2020-01-03 16:24:52.530 [main] PlatformDependent - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+[DEBUG] 2020-01-03 16:24:52.530 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2020-01-03 16:24:52.531 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2020-01-03 16:24:52.531 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2020-01-03 16:24:52.531 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[TRACE] 2020-01-03 16:24:52.534 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@12405818
+[TRACE] 2020-01-03 16:24:52.534 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@16267862
+[TRACE] 2020-01-03 16:24:52.534 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@453da22c
+[TRACE] 2020-01-03 16:24:52.535 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@71248c21
+[TRACE] 2020-01-03 16:24:52.535 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@442675e1
+[TRACE] 2020-01-03 16:24:52.535 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6166e06f
+[TRACE] 2020-01-03 16:24:52.535 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@49e202ad
+[TRACE] 2020-01-03 16:24:52.535 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@1c72da34
+[TRACE] 2020-01-03 16:24:52.535 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6b0c2d26
+[TRACE] 2020-01-03 16:24:52.535 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@3d3fcdb0
+[TRACE] 2020-01-03 16:24:52.535 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@641147d0
+[TRACE] 2020-01-03 16:24:52.535 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6e38921c
+[TRACE] 2020-01-03 16:24:52.536 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@64d7f7e0
+[TRACE] 2020-01-03 16:24:52.536 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@27c6e487
+[TRACE] 2020-01-03 16:24:52.536 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@49070868
+[TRACE] 2020-01-03 16:24:52.536 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6385cb26
+[TRACE] 2020-01-03 16:24:52.536 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@38364841
+[DEBUG] 2020-01-03 16:24:52.556 [main] DefaultChannelId - -Dio.netty.processId: 2291 (auto-detected)
+[DEBUG] 2020-01-03 16:24:52.557 [main] DefaultChannelId - -Dio.netty.machineId: e0:9d:31:ff:fe:db:34:36 (auto-detected)
+[DEBUG] 2020-01-03 16:24:52.558 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x019c3a98a47a6a94 (took 4 ms)
+[DEBUG] 2020-01-03 16:24:52.581 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2020-01-03 16:24:52.582 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2020-01-03 16:24:52.582 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2020-01-03 16:24:52.582 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[DEBUG] 2020-01-03 16:24:52.582 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] 2020-01-03 16:24:52.582 [main] PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[DEBUG] 2020-01-03 16:24:52.582 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2020-01-03 16:24:52.582 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2020-01-03 16:24:52.582 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2020-01-03 16:24:52.582 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2020-01-03 16:24:52.587 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2020-01-03 16:24:52.587 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[DEBUG] 2020-01-03 16:24:52.589 [main] NetUtil - Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+[DEBUG] 2020-01-03 16:24:52.589 [main] NetUtil - /proc/sys/net/core/somaxconn: 128
+[INFO ] 2020-01-03 16:24:52.597 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x546a307b] REGISTERED
+[INFO ] 2020-01-03 16:24:52.599 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x546a307b] BIND: 0.0.0.0/0.0.0.0:8080
+[INFO ] 2020-01-03 16:24:52.600 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x546a307b, /0:0:0:0:0:0:0:0:8080] ACTIVE
+[INFO ] 2020-01-03 16:25:00.282 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x546a307b, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x2bfa9961, /0:0:0:0:0:0:0:1:34924 => /0:0:0:0:0:0:0:1:8080]
+[INFO ] 2020-01-03 16:25:00.283 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x546a307b, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xb625988b, /0:0:0:0:0:0:0:1:34926 => /0:0:0:0:0:0:0:1:8080]
+[DEBUG] 2020-01-03 16:25:00.295 [nioEventLoopGroup-1-1] ResourceLeakDetector - -Dio.netty.leakDetectionLevel: simple
+[DEBUG] 2020-01-03 16:25:00.325 [nioEventLoopGroup-1-0] Recycler - -Dio.netty.recycler.maxCapacity: 262144
+[INFO ] 2020-01-03 16:25:00.341 [nioEventLoopGroup-1-0] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:25:00.344 [nioEventLoopGroup-1-0] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:25:00.344 [nioEventLoopGroup-1-0] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:25:00.344 [nioEventLoopGroup-1-0] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:25:00.344 [nioEventLoopGroup-1-0] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:25:00.344 [nioEventLoopGroup-1-0] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-03 16:25:00.346 [nioEventLoopGroup-1-0] EmployeeResource - params as 0
+[DEBUG] 2020-01-03 16:25:00.352 [nioEventLoopGroup-1-0] ZlibCodecFactory - -Dio.netty.noJdkZlibDecoder: true
+[DEBUG] 2020-01-03 16:25:00.352 [nioEventLoopGroup-1-0] ZlibCodecFactory - -Dio.netty.noJdkZlibEncoder: false
+[INFO ] 2020-01-03 16:25:00.377 [nioEventLoopGroup-1-0] ApiProtocol - /favicon.ico
+[DEBUG] 2020-01-03 16:25:00.377 [nioEventLoopGroup-1-0] ApiProtocol - endpoint /favicon.ico api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:25:00.377 [nioEventLoopGroup-1-0] ApiProtocol - endpoint /favicon.ico api regex /user
+[DEBUG] 2020-01-03 16:25:00.377 [nioEventLoopGroup-1-0] ApiProtocol - endpoint /favicon.ico api regex /employee
+[DEBUG] 2020-01-03 16:25:00.377 [nioEventLoopGroup-1-0] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-03 16:25:25.987 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x546a307b, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x3b043c6a, /0:0:0:0:0:0:0:1:35136 => /0:0:0:0:0:0:0:1:8080]
+[INFO ] 2020-01-03 16:25:26.005 [nioEventLoopGroup-1-2] ApiProtocol - /employee?id=10000&action=search
+[DEBUG] 2020-01-03 16:25:26.005 [nioEventLoopGroup-1-2] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:25:26.006 [nioEventLoopGroup-1-2] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:25:26.006 [nioEventLoopGroup-1-2] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:25:26.006 [nioEventLoopGroup-1-2] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:25:26.006 [nioEventLoopGroup-1-2] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-03 16:25:26.006 [nioEventLoopGroup-1-2] EmployeeResource - params as 2
+[INFO ] 2020-01-03 16:25:26.026 [nioEventLoopGroup-1-2] ApiProtocol - /favicon.ico
+[DEBUG] 2020-01-03 16:25:26.026 [nioEventLoopGroup-1-2] ApiProtocol - endpoint /favicon.ico api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:25:26.026 [nioEventLoopGroup-1-2] ApiProtocol - endpoint /favicon.ico api regex /user
+[DEBUG] 2020-01-03 16:25:26.027 [nioEventLoopGroup-1-2] ApiProtocol - endpoint /favicon.ico api regex /employee
+[DEBUG] 2020-01-03 16:25:26.027 [nioEventLoopGroup-1-2] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-03 16:26:54.974 [main] EmployeServiceMain - Start employee services
+[DEBUG] 2020-01-03 16:26:54.976 [main] EmployeServiceMain - Start employee services
+[DEBUG] 2020-01-03 16:26:54.981 [main] InternalLoggerFactory - Using SLF4J as the default logging framework
+[DEBUG] 2020-01-03 16:26:54.985 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+[DEBUG] 2020-01-03 16:26:55.007 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2020-01-03 16:26:55.007 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2020-01-03 16:26:55.008 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2020-01-03 16:26:55.008 [main] PlatformDependent0 - java.nio.Bits.unaligned: true
+[DEBUG] 2020-01-03 16:26:55.008 [main] PlatformDependent - Java version: 8
+[DEBUG] 2020-01-03 16:26:55.008 [main] PlatformDependent - -Dio.netty.noUnsafe: false
+[DEBUG] 2020-01-03 16:26:55.008 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2020-01-03 16:26:55.009 [main] PlatformDependent - -Dio.netty.noJavassist: false
+[DEBUG] 2020-01-03 16:26:55.009 [main] PlatformDependent - Javassist: unavailable
+[DEBUG] 2020-01-03 16:26:55.009 [main] PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[DEBUG] 2020-01-03 16:26:55.009 [main] PlatformDependent - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+[DEBUG] 2020-01-03 16:26:55.009 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2020-01-03 16:26:55.009 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2020-01-03 16:26:55.010 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2020-01-03 16:26:55.010 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[TRACE] 2020-01-03 16:26:55.013 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@12405818
+[TRACE] 2020-01-03 16:26:55.013 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@16267862
+[TRACE] 2020-01-03 16:26:55.014 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@453da22c
+[TRACE] 2020-01-03 16:26:55.014 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@71248c21
+[TRACE] 2020-01-03 16:26:55.014 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@442675e1
+[TRACE] 2020-01-03 16:26:55.014 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6166e06f
+[TRACE] 2020-01-03 16:26:55.014 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@49e202ad
+[TRACE] 2020-01-03 16:26:55.014 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@1c72da34
+[TRACE] 2020-01-03 16:26:55.014 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6b0c2d26
+[TRACE] 2020-01-03 16:26:55.014 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@3d3fcdb0
+[TRACE] 2020-01-03 16:26:55.015 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@641147d0
+[TRACE] 2020-01-03 16:26:55.015 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6e38921c
+[TRACE] 2020-01-03 16:26:55.015 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@64d7f7e0
+[TRACE] 2020-01-03 16:26:55.015 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@27c6e487
+[TRACE] 2020-01-03 16:26:55.015 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@49070868
+[TRACE] 2020-01-03 16:26:55.015 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6385cb26
+[TRACE] 2020-01-03 16:26:55.015 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@38364841
+[DEBUG] 2020-01-03 16:26:55.037 [main] DefaultChannelId - -Dio.netty.processId: 2602 (auto-detected)
+[DEBUG] 2020-01-03 16:26:55.038 [main] DefaultChannelId - -Dio.netty.machineId: e0:9d:31:ff:fe:db:34:36 (auto-detected)
+[DEBUG] 2020-01-03 16:26:55.039 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x030f9fb0fcf16667 (took 4 ms)
+[DEBUG] 2020-01-03 16:26:55.059 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2020-01-03 16:26:55.059 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2020-01-03 16:26:55.059 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2020-01-03 16:26:55.059 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[DEBUG] 2020-01-03 16:26:55.059 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] 2020-01-03 16:26:55.059 [main] PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[DEBUG] 2020-01-03 16:26:55.059 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2020-01-03 16:26:55.059 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2020-01-03 16:26:55.059 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2020-01-03 16:26:55.059 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2020-01-03 16:26:55.063 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2020-01-03 16:26:55.063 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[DEBUG] 2020-01-03 16:26:55.065 [main] NetUtil - Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+[DEBUG] 2020-01-03 16:26:55.065 [main] NetUtil - /proc/sys/net/core/somaxconn: 128
+[INFO ] 2020-01-03 16:26:55.073 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x18249543] REGISTERED
+[INFO ] 2020-01-03 16:26:55.074 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x18249543] BIND: 0.0.0.0/0.0.0.0:8080
+[INFO ] 2020-01-03 16:26:55.075 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x18249543] CLOSE
+[INFO ] 2020-01-03 16:26:55.076 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x18249543] UNREGISTERED
+[INFO ] 2020-01-03 16:27:01.289 [main] EmployeServiceMain - Start employee services
+[DEBUG] 2020-01-03 16:27:01.291 [main] EmployeServiceMain - Start employee services
+[DEBUG] 2020-01-03 16:27:01.296 [main] InternalLoggerFactory - Using SLF4J as the default logging framework
+[DEBUG] 2020-01-03 16:27:01.300 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+[DEBUG] 2020-01-03 16:27:01.320 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2020-01-03 16:27:01.320 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2020-01-03 16:27:01.320 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2020-01-03 16:27:01.320 [main] PlatformDependent0 - java.nio.Bits.unaligned: true
+[DEBUG] 2020-01-03 16:27:01.321 [main] PlatformDependent - Java version: 8
+[DEBUG] 2020-01-03 16:27:01.321 [main] PlatformDependent - -Dio.netty.noUnsafe: false
+[DEBUG] 2020-01-03 16:27:01.321 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2020-01-03 16:27:01.321 [main] PlatformDependent - -Dio.netty.noJavassist: false
+[DEBUG] 2020-01-03 16:27:01.322 [main] PlatformDependent - Javassist: unavailable
+[DEBUG] 2020-01-03 16:27:01.322 [main] PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[DEBUG] 2020-01-03 16:27:01.322 [main] PlatformDependent - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+[DEBUG] 2020-01-03 16:27:01.322 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2020-01-03 16:27:01.322 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2020-01-03 16:27:01.322 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2020-01-03 16:27:01.322 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[TRACE] 2020-01-03 16:27:01.325 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@12405818
+[TRACE] 2020-01-03 16:27:01.326 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@16267862
+[TRACE] 2020-01-03 16:27:01.326 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@453da22c
+[TRACE] 2020-01-03 16:27:01.326 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@71248c21
+[TRACE] 2020-01-03 16:27:01.326 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@442675e1
+[TRACE] 2020-01-03 16:27:01.326 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6166e06f
+[TRACE] 2020-01-03 16:27:01.326 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@49e202ad
+[TRACE] 2020-01-03 16:27:01.327 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@1c72da34
+[TRACE] 2020-01-03 16:27:01.327 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6b0c2d26
+[TRACE] 2020-01-03 16:27:01.327 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@3d3fcdb0
+[TRACE] 2020-01-03 16:27:01.327 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@641147d0
+[TRACE] 2020-01-03 16:27:01.327 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6e38921c
+[TRACE] 2020-01-03 16:27:01.327 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@64d7f7e0
+[TRACE] 2020-01-03 16:27:01.327 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@27c6e487
+[TRACE] 2020-01-03 16:27:01.327 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@49070868
+[TRACE] 2020-01-03 16:27:01.328 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6385cb26
+[TRACE] 2020-01-03 16:27:01.328 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@38364841
+[DEBUG] 2020-01-03 16:27:01.348 [main] DefaultChannelId - -Dio.netty.processId: 2672 (auto-detected)
+[DEBUG] 2020-01-03 16:27:01.349 [main] DefaultChannelId - -Dio.netty.machineId: e0:9d:31:ff:fe:db:34:36 (auto-detected)
+[DEBUG] 2020-01-03 16:27:01.350 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x24d15e1f36a6a893 (took 3 ms)
+[DEBUG] 2020-01-03 16:27:01.367 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2020-01-03 16:27:01.367 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2020-01-03 16:27:01.367 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2020-01-03 16:27:01.367 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[DEBUG] 2020-01-03 16:27:01.367 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] 2020-01-03 16:27:01.367 [main] PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[DEBUG] 2020-01-03 16:27:01.367 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2020-01-03 16:27:01.368 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2020-01-03 16:27:01.368 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2020-01-03 16:27:01.368 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2020-01-03 16:27:01.371 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2020-01-03 16:27:01.371 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[DEBUG] 2020-01-03 16:27:01.372 [main] NetUtil - Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+[DEBUG] 2020-01-03 16:27:01.373 [main] NetUtil - /proc/sys/net/core/somaxconn: 128
+[INFO ] 2020-01-03 16:27:01.380 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196] REGISTERED
+[INFO ] 2020-01-03 16:27:01.381 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196] BIND: 0.0.0.0/0.0.0.0:8080
+[INFO ] 2020-01-03 16:27:01.383 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] ACTIVE
+[INFO ] 2020-01-03 16:27:03.657 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x743f6563, /0:0:0:0:0:0:0:1:35914 => /0:0:0:0:0:0:0:1:8080]
+[INFO ] 2020-01-03 16:27:03.658 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x2a7b1e44, /0:0:0:0:0:0:0:1:35916 => /0:0:0:0:0:0:0:1:8080]
+[DEBUG] 2020-01-03 16:27:03.669 [nioEventLoopGroup-1-0] ResourceLeakDetector - -Dio.netty.leakDetectionLevel: simple
+[DEBUG] 2020-01-03 16:27:03.699 [nioEventLoopGroup-1-0] Recycler - -Dio.netty.recycler.maxCapacity: 262144
+[INFO ] 2020-01-03 16:27:03.716 [nioEventLoopGroup-1-0] ApiProtocol - /employee?id=10000&action=search
+[DEBUG] 2020-01-03 16:27:03.719 [nioEventLoopGroup-1-0] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:27:03.719 [nioEventLoopGroup-1-0] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:27:03.720 [nioEventLoopGroup-1-0] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:27:03.720 [nioEventLoopGroup-1-0] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:27:03.720 [nioEventLoopGroup-1-0] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-03 16:27:03.722 [nioEventLoopGroup-1-0] EmployeeResource - params as action
+[INFO ] 2020-01-03 16:27:03.722 [nioEventLoopGroup-1-0] EmployeeResource - params as id
+[DEBUG] 2020-01-03 16:27:03.729 [nioEventLoopGroup-1-0] ZlibCodecFactory - -Dio.netty.noJdkZlibDecoder: true
+[DEBUG] 2020-01-03 16:27:03.729 [nioEventLoopGroup-1-0] ZlibCodecFactory - -Dio.netty.noJdkZlibEncoder: false
+[INFO ] 2020-01-03 16:27:03.754 [nioEventLoopGroup-1-0] ApiProtocol - /favicon.ico
+[DEBUG] 2020-01-03 16:27:03.754 [nioEventLoopGroup-1-0] ApiProtocol - endpoint /favicon.ico api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:27:03.754 [nioEventLoopGroup-1-0] ApiProtocol - endpoint /favicon.ico api regex /user
+[DEBUG] 2020-01-03 16:27:03.754 [nioEventLoopGroup-1-0] ApiProtocol - endpoint /favicon.ico api regex /employee
+[DEBUG] 2020-01-03 16:27:03.754 [nioEventLoopGroup-1-0] ApiProtocol - server ip: 0:0:0:0:0:0:0:1, client ip: 0:0:0:0:0:0:0:1
+[INFO ] 2020-01-03 16:34:03.997 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x25d39e22, /127.0.0.1:51010 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:36:37.248 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x815c9f5d, /127.0.0.1:52250 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:36:37.274 [nioEventLoopGroup-1-2] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:36:37.275 [nioEventLoopGroup-1-2] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:36:37.276 [nioEventLoopGroup-1-2] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:36:37.276 [nioEventLoopGroup-1-2] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:36:37.276 [nioEventLoopGroup-1-2] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:36:37.276 [nioEventLoopGroup-1-2] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:36:43.981 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x6bea7a8a, /127.0.0.1:52308 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:36:43.992 [nioEventLoopGroup-1-4] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:36:43.993 [nioEventLoopGroup-1-4] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:36:43.993 [nioEventLoopGroup-1-4] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:36:43.993 [nioEventLoopGroup-1-4] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:36:43.993 [nioEventLoopGroup-1-4] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:36:43.993 [nioEventLoopGroup-1-4] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:36:44.956 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x6fe4001f, /127.0.0.1:52318 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:36:44.970 [nioEventLoopGroup-1-5] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:36:44.970 [nioEventLoopGroup-1-5] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:36:44.970 [nioEventLoopGroup-1-5] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:36:44.970 [nioEventLoopGroup-1-5] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:36:44.970 [nioEventLoopGroup-1-5] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:36:44.970 [nioEventLoopGroup-1-5] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:36:45.473 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x3f6fe75a, /127.0.0.1:52320 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:36:45.481 [nioEventLoopGroup-1-6] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:36:45.482 [nioEventLoopGroup-1-6] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:36:45.482 [nioEventLoopGroup-1-6] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:36:45.482 [nioEventLoopGroup-1-6] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:36:45.482 [nioEventLoopGroup-1-6] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:36:45.482 [nioEventLoopGroup-1-6] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:36:46.166 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x6c006841, /127.0.0.1:52330 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:36:46.174 [nioEventLoopGroup-1-7] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:36:46.175 [nioEventLoopGroup-1-7] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:36:46.175 [nioEventLoopGroup-1-7] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:36:46.175 [nioEventLoopGroup-1-7] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:36:46.175 [nioEventLoopGroup-1-7] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:36:46.175 [nioEventLoopGroup-1-7] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:36:46.565 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x97e70ef7, /127.0.0.1:52332 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:36:46.573 [nioEventLoopGroup-1-8] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:36:46.573 [nioEventLoopGroup-1-8] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:36:46.573 [nioEventLoopGroup-1-8] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:36:46.573 [nioEventLoopGroup-1-8] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:36:46.573 [nioEventLoopGroup-1-8] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:36:46.574 [nioEventLoopGroup-1-8] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:36:46.981 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x75d44544, /127.0.0.1:52342 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:36:46.983 [nioEventLoopGroup-1-9] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:36:46.983 [nioEventLoopGroup-1-9] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:36:46.983 [nioEventLoopGroup-1-9] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:36:46.983 [nioEventLoopGroup-1-9] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:36:46.983 [nioEventLoopGroup-1-9] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:36:46.983 [nioEventLoopGroup-1-9] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:36:47.479 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xca0388b7, /127.0.0.1:52344 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:36:47.489 [nioEventLoopGroup-1-10] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:36:47.491 [nioEventLoopGroup-1-10] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:36:47.491 [nioEventLoopGroup-1-10] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:36:47.491 [nioEventLoopGroup-1-10] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:36:47.491 [nioEventLoopGroup-1-10] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:36:47.491 [nioEventLoopGroup-1-10] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:36:49.202 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x03ccec0a, /127.0.0.1:52362 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:36:49.204 [nioEventLoopGroup-1-11] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:36:49.205 [nioEventLoopGroup-1-11] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:36:49.205 [nioEventLoopGroup-1-11] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:36:49.205 [nioEventLoopGroup-1-11] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:36:49.205 [nioEventLoopGroup-1-11] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:36:49.205 [nioEventLoopGroup-1-11] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:36:49.612 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x592279e6, /127.0.0.1:52364 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:36:49.614 [nioEventLoopGroup-1-12] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:36:49.614 [nioEventLoopGroup-1-12] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:36:49.614 [nioEventLoopGroup-1-12] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:36:49.614 [nioEventLoopGroup-1-12] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:36:49.614 [nioEventLoopGroup-1-12] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:36:49.614 [nioEventLoopGroup-1-12] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:36:49.823 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xcb7ff5ec, /127.0.0.1:52374 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:36:49.825 [nioEventLoopGroup-1-13] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:36:49.826 [nioEventLoopGroup-1-13] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:36:49.826 [nioEventLoopGroup-1-13] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:36:49.826 [nioEventLoopGroup-1-13] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:36:49.826 [nioEventLoopGroup-1-13] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:36:49.826 [nioEventLoopGroup-1-13] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:36:50.198 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x30ef3f47, /127.0.0.1:52376 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:36:50.201 [nioEventLoopGroup-1-14] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:36:50.202 [nioEventLoopGroup-1-14] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:36:50.202 [nioEventLoopGroup-1-14] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:36:50.202 [nioEventLoopGroup-1-14] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:36:50.202 [nioEventLoopGroup-1-14] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:36:50.202 [nioEventLoopGroup-1-14] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:36:50.453 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x32553c73, /127.0.0.1:52378 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:36:50.455 [nioEventLoopGroup-1-15] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:36:50.455 [nioEventLoopGroup-1-15] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:36:50.455 [nioEventLoopGroup-1-15] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:36:50.456 [nioEventLoopGroup-1-15] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:36:50.456 [nioEventLoopGroup-1-15] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:36:50.456 [nioEventLoopGroup-1-15] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:36:50.859 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x02184731, /127.0.0.1:52388 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:36:50.861 [nioEventLoopGroup-1-0] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:36:50.861 [nioEventLoopGroup-1-0] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:36:50.861 [nioEventLoopGroup-1-0] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:36:50.861 [nioEventLoopGroup-1-0] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:36:50.861 [nioEventLoopGroup-1-0] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:36:50.861 [nioEventLoopGroup-1-0] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:36:51.103 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x3fb02f10, /127.0.0.1:52390 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:36:51.105 [nioEventLoopGroup-1-3] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:36:51.106 [nioEventLoopGroup-1-3] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:36:51.106 [nioEventLoopGroup-1-3] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:36:51.106 [nioEventLoopGroup-1-3] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:36:51.106 [nioEventLoopGroup-1-3] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:36:51.106 [nioEventLoopGroup-1-3] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:36:51.336 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xfb6d5772, /127.0.0.1:52392 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:36:51.337 [nioEventLoopGroup-1-1] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:36:51.337 [nioEventLoopGroup-1-1] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:36:51.337 [nioEventLoopGroup-1-1] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:36:51.337 [nioEventLoopGroup-1-1] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:36:51.337 [nioEventLoopGroup-1-1] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:36:51.337 [nioEventLoopGroup-1-1] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:36:51.566 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xbd397092, /127.0.0.1:52394 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:36:51.567 [nioEventLoopGroup-1-2] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:36:51.567 [nioEventLoopGroup-1-2] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:36:51.567 [nioEventLoopGroup-1-2] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:36:51.567 [nioEventLoopGroup-1-2] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:36:51.567 [nioEventLoopGroup-1-2] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:36:51.567 [nioEventLoopGroup-1-2] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:36:51.767 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xbc515f9d, /127.0.0.1:52404 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:36:51.768 [nioEventLoopGroup-1-4] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:36:51.769 [nioEventLoopGroup-1-4] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:36:51.769 [nioEventLoopGroup-1-4] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:36:51.769 [nioEventLoopGroup-1-4] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:36:51.769 [nioEventLoopGroup-1-4] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:36:51.769 [nioEventLoopGroup-1-4] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:36:52.050 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xdb92c62b, /127.0.0.1:52406 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:36:52.052 [nioEventLoopGroup-1-5] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:36:52.052 [nioEventLoopGroup-1-5] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:36:52.052 [nioEventLoopGroup-1-5] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:36:52.052 [nioEventLoopGroup-1-5] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:36:52.052 [nioEventLoopGroup-1-5] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:36:52.052 [nioEventLoopGroup-1-5] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:36:52.233 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x14cc7f6f, /127.0.0.1:52408 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:36:52.234 [nioEventLoopGroup-1-6] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:36:52.234 [nioEventLoopGroup-1-6] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:36:52.234 [nioEventLoopGroup-1-6] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:36:52.234 [nioEventLoopGroup-1-6] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:36:52.234 [nioEventLoopGroup-1-6] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:36:52.234 [nioEventLoopGroup-1-6] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:36:52.418 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x7b36783c, /127.0.0.1:52410 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:36:52.419 [nioEventLoopGroup-1-7] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:36:52.419 [nioEventLoopGroup-1-7] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:36:52.419 [nioEventLoopGroup-1-7] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:36:52.419 [nioEventLoopGroup-1-7] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:36:52.419 [nioEventLoopGroup-1-7] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:36:52.419 [nioEventLoopGroup-1-7] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:36:52.606 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xf03ce26f, /127.0.0.1:52412 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:36:52.608 [nioEventLoopGroup-1-8] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:36:52.608 [nioEventLoopGroup-1-8] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:36:52.608 [nioEventLoopGroup-1-8] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:36:52.608 [nioEventLoopGroup-1-8] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:36:52.608 [nioEventLoopGroup-1-8] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:36:52.608 [nioEventLoopGroup-1-8] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:36:52.812 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xd9f9e544, /127.0.0.1:52422 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:36:52.813 [nioEventLoopGroup-1-9] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:36:52.814 [nioEventLoopGroup-1-9] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:36:52.814 [nioEventLoopGroup-1-9] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:36:52.814 [nioEventLoopGroup-1-9] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:36:52.814 [nioEventLoopGroup-1-9] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:36:52.814 [nioEventLoopGroup-1-9] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:36:53.000 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x8460ccf9, /127.0.0.1:52424 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:36:53.001 [nioEventLoopGroup-1-10] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:36:53.001 [nioEventLoopGroup-1-10] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:36:53.001 [nioEventLoopGroup-1-10] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:36:53.001 [nioEventLoopGroup-1-10] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:36:53.001 [nioEventLoopGroup-1-10] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:36:53.001 [nioEventLoopGroup-1-10] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:36:53.170 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x8ad541a7, /127.0.0.1:52426 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:36:53.171 [nioEventLoopGroup-1-11] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:36:53.171 [nioEventLoopGroup-1-11] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:36:53.171 [nioEventLoopGroup-1-11] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:36:53.171 [nioEventLoopGroup-1-11] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:36:53.171 [nioEventLoopGroup-1-11] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:36:53.171 [nioEventLoopGroup-1-11] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:36:53.386 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xd4c48446, /127.0.0.1:52428 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:36:53.387 [nioEventLoopGroup-1-12] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:36:53.387 [nioEventLoopGroup-1-12] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:36:53.387 [nioEventLoopGroup-1-12] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:36:53.387 [nioEventLoopGroup-1-12] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:36:53.387 [nioEventLoopGroup-1-12] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:36:53.387 [nioEventLoopGroup-1-12] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:36:53.588 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x5a2ae32b, /127.0.0.1:52430 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:36:53.589 [nioEventLoopGroup-1-13] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:36:53.590 [nioEventLoopGroup-1-13] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:36:53.590 [nioEventLoopGroup-1-13] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:36:53.590 [nioEventLoopGroup-1-13] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:36:53.590 [nioEventLoopGroup-1-13] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:36:53.590 [nioEventLoopGroup-1-13] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:36:53.771 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xbc92ea41, /127.0.0.1:52440 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:36:53.772 [nioEventLoopGroup-1-14] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:36:53.772 [nioEventLoopGroup-1-14] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:36:53.773 [nioEventLoopGroup-1-14] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:36:53.773 [nioEventLoopGroup-1-14] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:36:53.773 [nioEventLoopGroup-1-14] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:36:53.773 [nioEventLoopGroup-1-14] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:36:53.970 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xa7341551, /127.0.0.1:52442 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:36:53.971 [nioEventLoopGroup-1-15] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:36:53.971 [nioEventLoopGroup-1-15] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:36:53.971 [nioEventLoopGroup-1-15] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:36:53.971 [nioEventLoopGroup-1-15] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:36:53.971 [nioEventLoopGroup-1-15] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:36:53.971 [nioEventLoopGroup-1-15] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:36:54.334 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xdfc78724, /127.0.0.1:52444 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:36:54.335 [nioEventLoopGroup-1-0] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:36:54.335 [nioEventLoopGroup-1-0] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:36:54.335 [nioEventLoopGroup-1-0] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:36:54.335 [nioEventLoopGroup-1-0] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:36:54.335 [nioEventLoopGroup-1-0] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:36:54.335 [nioEventLoopGroup-1-0] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:36:54.555 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xc98bdc02, /127.0.0.1:52446 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:36:54.557 [nioEventLoopGroup-1-3] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:36:54.557 [nioEventLoopGroup-1-3] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:36:54.557 [nioEventLoopGroup-1-3] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:36:54.557 [nioEventLoopGroup-1-3] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:36:54.557 [nioEventLoopGroup-1-3] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:36:54.557 [nioEventLoopGroup-1-3] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:36:54.751 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xa2809e26, /127.0.0.1:52456 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:36:54.752 [nioEventLoopGroup-1-1] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:36:54.753 [nioEventLoopGroup-1-1] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:36:54.753 [nioEventLoopGroup-1-1] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:36:54.753 [nioEventLoopGroup-1-1] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:36:54.753 [nioEventLoopGroup-1-1] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:36:54.753 [nioEventLoopGroup-1-1] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:36:54.928 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x49af4c21, /127.0.0.1:52458 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:36:54.929 [nioEventLoopGroup-1-2] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:36:54.930 [nioEventLoopGroup-1-2] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:36:54.930 [nioEventLoopGroup-1-2] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:36:54.930 [nioEventLoopGroup-1-2] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:36:54.930 [nioEventLoopGroup-1-2] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:36:54.930 [nioEventLoopGroup-1-2] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:36:55.117 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xcfc49fcd, /127.0.0.1:52460 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:36:55.118 [nioEventLoopGroup-1-4] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:36:55.118 [nioEventLoopGroup-1-4] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:36:55.119 [nioEventLoopGroup-1-4] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:36:55.119 [nioEventLoopGroup-1-4] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:36:55.119 [nioEventLoopGroup-1-4] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:36:55.119 [nioEventLoopGroup-1-4] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:36:55.323 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xe673cdff, /127.0.0.1:52462 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:36:55.324 [nioEventLoopGroup-1-5] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:36:55.324 [nioEventLoopGroup-1-5] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:36:55.324 [nioEventLoopGroup-1-5] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:36:55.324 [nioEventLoopGroup-1-5] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:36:55.324 [nioEventLoopGroup-1-5] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:36:55.324 [nioEventLoopGroup-1-5] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:36:55.500 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x372123a3, /127.0.0.1:52464 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:36:55.501 [nioEventLoopGroup-1-6] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:36:55.501 [nioEventLoopGroup-1-6] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:36:55.501 [nioEventLoopGroup-1-6] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:36:55.501 [nioEventLoopGroup-1-6] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:36:55.501 [nioEventLoopGroup-1-6] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:36:55.501 [nioEventLoopGroup-1-6] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:36:55.720 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x8bdcc3cb, /127.0.0.1:52474 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:36:55.721 [nioEventLoopGroup-1-7] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:36:55.721 [nioEventLoopGroup-1-7] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:36:55.721 [nioEventLoopGroup-1-7] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:36:55.721 [nioEventLoopGroup-1-7] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:36:55.721 [nioEventLoopGroup-1-7] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:36:55.721 [nioEventLoopGroup-1-7] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:36:55.918 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xd2ac5c54, /127.0.0.1:52476 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:36:55.919 [nioEventLoopGroup-1-8] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:36:55.919 [nioEventLoopGroup-1-8] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:36:55.919 [nioEventLoopGroup-1-8] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:36:55.919 [nioEventLoopGroup-1-8] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:36:55.919 [nioEventLoopGroup-1-8] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:36:55.919 [nioEventLoopGroup-1-8] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:36:56.312 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x38593e6f, /127.0.0.1:52478 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:36:56.314 [nioEventLoopGroup-1-9] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:36:56.315 [nioEventLoopGroup-1-9] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:36:56.315 [nioEventLoopGroup-1-9] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:36:56.315 [nioEventLoopGroup-1-9] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:36:56.315 [nioEventLoopGroup-1-9] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:36:56.315 [nioEventLoopGroup-1-9] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:36:56.497 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x43130488, /127.0.0.1:52480 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:36:56.497 [nioEventLoopGroup-1-10] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:36:56.498 [nioEventLoopGroup-1-10] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:36:56.498 [nioEventLoopGroup-1-10] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:36:56.498 [nioEventLoopGroup-1-10] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:36:56.498 [nioEventLoopGroup-1-10] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:36:56.498 [nioEventLoopGroup-1-10] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:36:56.653 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xf69fb578, /127.0.0.1:52482 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:36:56.654 [nioEventLoopGroup-1-11] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:36:56.654 [nioEventLoopGroup-1-11] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:36:56.654 [nioEventLoopGroup-1-11] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:36:56.654 [nioEventLoopGroup-1-11] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:36:56.654 [nioEventLoopGroup-1-11] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:36:56.654 [nioEventLoopGroup-1-11] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:36:56.833 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x9b5adff2, /127.0.0.1:52492 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:36:56.833 [nioEventLoopGroup-1-12] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:36:56.834 [nioEventLoopGroup-1-12] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:36:56.834 [nioEventLoopGroup-1-12] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:36:56.834 [nioEventLoopGroup-1-12] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:36:56.834 [nioEventLoopGroup-1-12] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:36:56.834 [nioEventLoopGroup-1-12] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:36:57.018 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x92d7aafd, /127.0.0.1:52494 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:36:57.018 [nioEventLoopGroup-1-13] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:36:57.018 [nioEventLoopGroup-1-13] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:36:57.018 [nioEventLoopGroup-1-13] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:36:57.018 [nioEventLoopGroup-1-13] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:36:57.018 [nioEventLoopGroup-1-13] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:36:57.018 [nioEventLoopGroup-1-13] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:41:15.729 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x66606b6c, /127.0.0.1:54566 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:41:15.729 [nioEventLoopGroup-1-14] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:41:15.729 [nioEventLoopGroup-1-14] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:41:15.730 [nioEventLoopGroup-1-14] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:41:15.730 [nioEventLoopGroup-1-14] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:41:15.730 [nioEventLoopGroup-1-14] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:41:15.730 [nioEventLoopGroup-1-14] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:41:16.483 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xbf50d2a5, /127.0.0.1:54568 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:41:16.484 [nioEventLoopGroup-1-15] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:41:16.484 [nioEventLoopGroup-1-15] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:41:16.484 [nioEventLoopGroup-1-15] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:41:16.484 [nioEventLoopGroup-1-15] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:41:16.484 [nioEventLoopGroup-1-15] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:41:16.484 [nioEventLoopGroup-1-15] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:41:17.009 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xcfd10819, /127.0.0.1:54578 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:41:17.010 [nioEventLoopGroup-1-3] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:41:17.011 [nioEventLoopGroup-1-3] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:41:17.011 [nioEventLoopGroup-1-3] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:41:17.011 [nioEventLoopGroup-1-3] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:41:17.011 [nioEventLoopGroup-1-3] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:41:17.011 [nioEventLoopGroup-1-3] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:41:17.557 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xe1c44b33, /127.0.0.1:54588 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:41:17.559 [nioEventLoopGroup-1-0] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:41:17.559 [nioEventLoopGroup-1-0] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:41:17.559 [nioEventLoopGroup-1-0] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:41:17.559 [nioEventLoopGroup-1-0] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:41:17.559 [nioEventLoopGroup-1-0] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:41:17.559 [nioEventLoopGroup-1-0] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:41:18.326 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x80e220e1, /127.0.0.1:54590 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:41:18.327 [nioEventLoopGroup-1-1] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:41:18.327 [nioEventLoopGroup-1-1] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:41:18.327 [nioEventLoopGroup-1-1] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:41:18.327 [nioEventLoopGroup-1-1] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:41:18.327 [nioEventLoopGroup-1-1] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:41:18.327 [nioEventLoopGroup-1-1] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:41:18.938 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xad50cc4a, /127.0.0.1:54600 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:41:18.939 [nioEventLoopGroup-1-2] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:41:18.939 [nioEventLoopGroup-1-2] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:41:18.939 [nioEventLoopGroup-1-2] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:41:18.939 [nioEventLoopGroup-1-2] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:41:18.939 [nioEventLoopGroup-1-2] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:41:18.940 [nioEventLoopGroup-1-2] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:41:19.575 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0xec118196, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x3b324ec8, /127.0.0.1:54610 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 16:41:19.576 [nioEventLoopGroup-1-4] ApiProtocol - /employee
+[DEBUG] 2020-01-03 16:41:19.576 [nioEventLoopGroup-1-4] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 16:41:19.576 [nioEventLoopGroup-1-4] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 16:41:19.576 [nioEventLoopGroup-1-4] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 16:41:19.576 [nioEventLoopGroup-1-4] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 16:41:19.576 [nioEventLoopGroup-1-4] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 16:45:35.380 [main] EmployeServiceMain - Start employee services
+[DEBUG] 2020-01-03 16:45:35.382 [main] EmployeServiceMain - Start employee services
+[DEBUG] 2020-01-03 16:45:35.390 [main] InternalLoggerFactory - Using SLF4J as the default logging framework
+[DEBUG] 2020-01-03 16:45:35.395 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+[DEBUG] 2020-01-03 16:45:35.417 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2020-01-03 16:45:35.417 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2020-01-03 16:45:35.417 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2020-01-03 16:45:35.418 [main] PlatformDependent0 - java.nio.Bits.unaligned: true
+[DEBUG] 2020-01-03 16:45:35.418 [main] PlatformDependent - Java version: 8
+[DEBUG] 2020-01-03 16:45:35.418 [main] PlatformDependent - -Dio.netty.noUnsafe: false
+[DEBUG] 2020-01-03 16:45:35.418 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2020-01-03 16:45:35.418 [main] PlatformDependent - -Dio.netty.noJavassist: false
+[DEBUG] 2020-01-03 16:45:35.419 [main] PlatformDependent - Javassist: unavailable
+[DEBUG] 2020-01-03 16:45:35.419 [main] PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[DEBUG] 2020-01-03 16:45:35.419 [main] PlatformDependent - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+[DEBUG] 2020-01-03 16:45:35.419 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2020-01-03 16:45:35.419 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2020-01-03 16:45:35.420 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2020-01-03 16:45:35.420 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[TRACE] 2020-01-03 16:45:35.423 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@12405818
+[TRACE] 2020-01-03 16:45:35.423 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@16267862
+[TRACE] 2020-01-03 16:45:35.423 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@453da22c
+[TRACE] 2020-01-03 16:45:35.423 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@71248c21
+[TRACE] 2020-01-03 16:45:35.423 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@442675e1
+[TRACE] 2020-01-03 16:45:35.424 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6166e06f
+[TRACE] 2020-01-03 16:45:35.424 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@49e202ad
+[TRACE] 2020-01-03 16:45:35.424 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@1c72da34
+[TRACE] 2020-01-03 16:45:35.424 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6b0c2d26
+[TRACE] 2020-01-03 16:45:35.424 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@3d3fcdb0
+[TRACE] 2020-01-03 16:45:35.424 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@641147d0
+[TRACE] 2020-01-03 16:45:35.424 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6e38921c
+[TRACE] 2020-01-03 16:45:35.424 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@64d7f7e0
+[TRACE] 2020-01-03 16:45:35.425 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@27c6e487
+[TRACE] 2020-01-03 16:45:35.425 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@49070868
+[TRACE] 2020-01-03 16:45:35.425 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6385cb26
+[TRACE] 2020-01-03 16:45:35.425 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@38364841
+[DEBUG] 2020-01-03 16:45:35.446 [main] DefaultChannelId - -Dio.netty.processId: 3881 (auto-detected)
+[DEBUG] 2020-01-03 16:45:35.447 [main] DefaultChannelId - -Dio.netty.machineId: e0:9d:31:ff:fe:db:34:36 (auto-detected)
+[DEBUG] 2020-01-03 16:45:35.448 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xdb507e222106b0b8 (took 4 ms)
+[DEBUG] 2020-01-03 16:45:35.468 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2020-01-03 16:45:35.468 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2020-01-03 16:45:35.468 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2020-01-03 16:45:35.468 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[DEBUG] 2020-01-03 16:45:35.468 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] 2020-01-03 16:45:35.468 [main] PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[DEBUG] 2020-01-03 16:45:35.468 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2020-01-03 16:45:35.468 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2020-01-03 16:45:35.468 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2020-01-03 16:45:35.468 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2020-01-03 16:45:35.472 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2020-01-03 16:45:35.472 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[DEBUG] 2020-01-03 16:45:35.474 [main] NetUtil - Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+[DEBUG] 2020-01-03 16:45:35.474 [main] NetUtil - /proc/sys/net/core/somaxconn: 128
+[INFO ] 2020-01-03 16:45:35.482 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x813cd4ba] REGISTERED
+[INFO ] 2020-01-03 16:45:35.484 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x813cd4ba] BIND: 0.0.0.0/0.0.0.0:8080
+[INFO ] 2020-01-03 16:45:35.486 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x813cd4ba, /0:0:0:0:0:0:0:0:8080] ACTIVE
+[INFO ] 2020-01-03 17:02:48.965 [main] EmployeServiceMain - Start employee services
+[DEBUG] 2020-01-03 17:02:48.968 [main] EmployeServiceMain - Start employee services
+[DEBUG] 2020-01-03 17:02:48.979 [main] InternalLoggerFactory - Using SLF4J as the default logging framework
+[DEBUG] 2020-01-03 17:02:48.984 [main] MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+[DEBUG] 2020-01-03 17:02:49.010 [main] PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 2020-01-03 17:02:49.010 [main] PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 2020-01-03 17:02:49.011 [main] PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 2020-01-03 17:02:49.011 [main] PlatformDependent0 - java.nio.Bits.unaligned: true
+[DEBUG] 2020-01-03 17:02:49.011 [main] PlatformDependent - Java version: 8
+[DEBUG] 2020-01-03 17:02:49.011 [main] PlatformDependent - -Dio.netty.noUnsafe: false
+[DEBUG] 2020-01-03 17:02:49.011 [main] PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 2020-01-03 17:02:49.012 [main] PlatformDependent - -Dio.netty.noJavassist: false
+[DEBUG] 2020-01-03 17:02:49.012 [main] PlatformDependent - Javassist: unavailable
+[DEBUG] 2020-01-03 17:02:49.012 [main] PlatformDependent - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+[DEBUG] 2020-01-03 17:02:49.012 [main] PlatformDependent - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+[DEBUG] 2020-01-03 17:02:49.012 [main] PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[DEBUG] 2020-01-03 17:02:49.012 [main] PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 2020-01-03 17:02:49.013 [main] NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 2020-01-03 17:02:49.013 [main] NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[TRACE] 2020-01-03 17:02:49.016 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@12405818
+[TRACE] 2020-01-03 17:02:49.017 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@16267862
+[TRACE] 2020-01-03 17:02:49.017 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@453da22c
+[TRACE] 2020-01-03 17:02:49.017 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@71248c21
+[TRACE] 2020-01-03 17:02:49.017 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@442675e1
+[TRACE] 2020-01-03 17:02:49.017 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6166e06f
+[TRACE] 2020-01-03 17:02:49.017 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@49e202ad
+[TRACE] 2020-01-03 17:02:49.017 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@1c72da34
+[TRACE] 2020-01-03 17:02:49.018 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6b0c2d26
+[TRACE] 2020-01-03 17:02:49.018 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@3d3fcdb0
+[TRACE] 2020-01-03 17:02:49.018 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@641147d0
+[TRACE] 2020-01-03 17:02:49.018 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6e38921c
+[TRACE] 2020-01-03 17:02:49.018 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@64d7f7e0
+[TRACE] 2020-01-03 17:02:49.018 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@27c6e487
+[TRACE] 2020-01-03 17:02:49.018 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@49070868
+[TRACE] 2020-01-03 17:02:49.018 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@6385cb26
+[TRACE] 2020-01-03 17:02:49.018 [main] NioEventLoop - Instrumented an optimized java.util.Set into: sun.nio.ch.EPollSelectorImpl@38364841
+[DEBUG] 2020-01-03 17:02:49.039 [main] DefaultChannelId - -Dio.netty.processId: 4606 (auto-detected)
+[DEBUG] 2020-01-03 17:02:49.040 [main] DefaultChannelId - -Dio.netty.machineId: e0:9d:31:ff:fe:db:34:36 (auto-detected)
+[DEBUG] 2020-01-03 17:02:49.041 [main] ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xa9ff9a778ea4ffdf (took 3 ms)
+[DEBUG] 2020-01-03 17:02:49.059 [main] PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+[DEBUG] 2020-01-03 17:02:49.059 [main] PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+[DEBUG] 2020-01-03 17:02:49.059 [main] PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 2020-01-03 17:02:49.059 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[DEBUG] 2020-01-03 17:02:49.059 [main] PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] 2020-01-03 17:02:49.059 [main] PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[DEBUG] 2020-01-03 17:02:49.059 [main] PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 2020-01-03 17:02:49.059 [main] PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 2020-01-03 17:02:49.060 [main] PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 2020-01-03 17:02:49.060 [main] PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 2020-01-03 17:02:49.063 [main] ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 2020-01-03 17:02:49.063 [main] ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+[DEBUG] 2020-01-03 17:02:49.064 [main] NetUtil - Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+[DEBUG] 2020-01-03 17:02:49.065 [main] NetUtil - /proc/sys/net/core/somaxconn: 128
+[INFO ] 2020-01-03 17:02:49.072 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x6a77c1fc] REGISTERED
+[INFO ] 2020-01-03 17:02:49.075 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x6a77c1fc] BIND: 0.0.0.0/0.0.0.0:8080
+[INFO ] 2020-01-03 17:02:49.076 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x6a77c1fc, /0:0:0:0:0:0:0:0:8080] ACTIVE
+[INFO ] 2020-01-03 17:02:51.551 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x6a77c1fc, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x1f7bb84f, /127.0.0.1:36722 => /127.0.0.1:8080]
+[DEBUG] 2020-01-03 17:02:51.562 [nioEventLoopGroup-1-0] ResourceLeakDetector - -Dio.netty.leakDetectionLevel: simple
+[DEBUG] 2020-01-03 17:02:51.593 [nioEventLoopGroup-1-0] Recycler - -Dio.netty.recycler.maxCapacity: 262144
+[INFO ] 2020-01-03 17:02:51.611 [nioEventLoopGroup-1-0] ApiProtocol - /employee
+[DEBUG] 2020-01-03 17:02:51.614 [nioEventLoopGroup-1-0] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 17:02:51.614 [nioEventLoopGroup-1-0] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 17:02:51.614 [nioEventLoopGroup-1-0] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 17:02:51.615 [nioEventLoopGroup-1-0] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 17:02:51.615 [nioEventLoopGroup-1-0] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[DEBUG] 2020-01-03 17:02:51.623 [nioEventLoopGroup-1-0] ZlibCodecFactory - -Dio.netty.noJdkZlibDecoder: true
+[DEBUG] 2020-01-03 17:02:51.623 [nioEventLoopGroup-1-0] ZlibCodecFactory - -Dio.netty.noJdkZlibEncoder: false
+[INFO ] 2020-01-03 17:02:52.603 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x6a77c1fc, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xd7a02b0d, /127.0.0.1:36732 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 17:02:52.613 [nioEventLoopGroup-1-1] ApiProtocol - /employee
+[DEBUG] 2020-01-03 17:02:52.613 [nioEventLoopGroup-1-1] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 17:02:52.613 [nioEventLoopGroup-1-1] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 17:02:52.614 [nioEventLoopGroup-1-1] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 17:02:52.614 [nioEventLoopGroup-1-1] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 17:02:52.614 [nioEventLoopGroup-1-1] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 17:02:52.935 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x6a77c1fc, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x5a01f283, /127.0.0.1:36742 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 17:02:52.944 [nioEventLoopGroup-1-2] ApiProtocol - /employee
+[DEBUG] 2020-01-03 17:02:52.944 [nioEventLoopGroup-1-2] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 17:02:52.944 [nioEventLoopGroup-1-2] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 17:02:52.944 [nioEventLoopGroup-1-2] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 17:02:52.944 [nioEventLoopGroup-1-2] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 17:02:52.944 [nioEventLoopGroup-1-2] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 17:02:53.118 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x6a77c1fc, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x200cc70f, /127.0.0.1:36744 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 17:02:53.126 [nioEventLoopGroup-1-3] ApiProtocol - /employee
+[DEBUG] 2020-01-03 17:02:53.127 [nioEventLoopGroup-1-3] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 17:02:53.127 [nioEventLoopGroup-1-3] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 17:02:53.127 [nioEventLoopGroup-1-3] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 17:02:53.127 [nioEventLoopGroup-1-3] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 17:02:53.127 [nioEventLoopGroup-1-3] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 17:02:53.468 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x6a77c1fc, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x63238c2c, /127.0.0.1:36746 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 17:02:53.483 [nioEventLoopGroup-1-4] ApiProtocol - /employee
+[DEBUG] 2020-01-03 17:02:53.484 [nioEventLoopGroup-1-4] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 17:02:53.484 [nioEventLoopGroup-1-4] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 17:02:53.484 [nioEventLoopGroup-1-4] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 17:02:53.484 [nioEventLoopGroup-1-4] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 17:02:53.484 [nioEventLoopGroup-1-4] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 17:02:53.618 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x6a77c1fc, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x6344bc33, /127.0.0.1:36748 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 17:02:53.627 [nioEventLoopGroup-1-5] ApiProtocol - /employee
+[DEBUG] 2020-01-03 17:02:53.628 [nioEventLoopGroup-1-5] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 17:02:53.628 [nioEventLoopGroup-1-5] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 17:02:53.628 [nioEventLoopGroup-1-5] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 17:02:53.628 [nioEventLoopGroup-1-5] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 17:02:53.628 [nioEventLoopGroup-1-5] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 17:02:53.811 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x6a77c1fc, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xc81c576d, /127.0.0.1:36758 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 17:02:53.821 [nioEventLoopGroup-1-6] ApiProtocol - /employee
+[DEBUG] 2020-01-03 17:02:53.821 [nioEventLoopGroup-1-6] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 17:02:53.821 [nioEventLoopGroup-1-6] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 17:02:53.821 [nioEventLoopGroup-1-6] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 17:02:53.821 [nioEventLoopGroup-1-6] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 17:02:53.822 [nioEventLoopGroup-1-6] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 17:02:53.973 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x6a77c1fc, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xe0833e3c, /127.0.0.1:36760 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 17:02:53.987 [nioEventLoopGroup-1-7] ApiProtocol - /employee
+[DEBUG] 2020-01-03 17:02:53.987 [nioEventLoopGroup-1-7] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 17:02:53.987 [nioEventLoopGroup-1-7] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 17:02:53.988 [nioEventLoopGroup-1-7] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 17:02:53.988 [nioEventLoopGroup-1-7] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 17:02:53.988 [nioEventLoopGroup-1-7] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 17:02:54.159 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x6a77c1fc, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xed9a14ec, /127.0.0.1:36762 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 17:02:54.161 [nioEventLoopGroup-1-8] ApiProtocol - /employee
+[DEBUG] 2020-01-03 17:02:54.161 [nioEventLoopGroup-1-8] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 17:02:54.161 [nioEventLoopGroup-1-8] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 17:02:54.161 [nioEventLoopGroup-1-8] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 17:02:54.161 [nioEventLoopGroup-1-8] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 17:02:54.162 [nioEventLoopGroup-1-8] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 17:02:54.336 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x6a77c1fc, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x020d8c51, /127.0.0.1:36764 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 17:02:54.338 [nioEventLoopGroup-1-9] ApiProtocol - /employee
+[DEBUG] 2020-01-03 17:02:54.338 [nioEventLoopGroup-1-9] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 17:02:54.338 [nioEventLoopGroup-1-9] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 17:02:54.338 [nioEventLoopGroup-1-9] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 17:02:54.338 [nioEventLoopGroup-1-9] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 17:02:54.338 [nioEventLoopGroup-1-9] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 17:02:54.507 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x6a77c1fc, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xc26200f8, /127.0.0.1:36766 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 17:02:54.509 [nioEventLoopGroup-1-10] ApiProtocol - /employee
+[DEBUG] 2020-01-03 17:02:54.510 [nioEventLoopGroup-1-10] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 17:02:54.510 [nioEventLoopGroup-1-10] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 17:02:54.510 [nioEventLoopGroup-1-10] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 17:02:54.510 [nioEventLoopGroup-1-10] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 17:02:54.510 [nioEventLoopGroup-1-10] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 17:02:54.677 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x6a77c1fc, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x5c9f17b9, /127.0.0.1:36776 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 17:02:54.679 [nioEventLoopGroup-1-11] ApiProtocol - /employee
+[DEBUG] 2020-01-03 17:02:54.679 [nioEventLoopGroup-1-11] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 17:02:54.679 [nioEventLoopGroup-1-11] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 17:02:54.679 [nioEventLoopGroup-1-11] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 17:02:54.679 [nioEventLoopGroup-1-11] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 17:02:54.679 [nioEventLoopGroup-1-11] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 17:03:22.177 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x6a77c1fc, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x1c671630, /127.0.0.1:36994 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 17:03:22.178 [nioEventLoopGroup-1-4] ApiProtocol - /employee
+[DEBUG] 2020-01-03 17:03:22.178 [nioEventLoopGroup-1-4] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 17:03:22.178 [nioEventLoopGroup-1-4] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 17:03:22.178 [nioEventLoopGroup-1-4] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 17:03:22.178 [nioEventLoopGroup-1-4] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 17:03:22.179 [nioEventLoopGroup-1-4] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 17:03:22.362 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x6a77c1fc, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x30847228, /127.0.0.1:36996 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 17:03:22.365 [nioEventLoopGroup-1-13] ApiProtocol - /employee
+[DEBUG] 2020-01-03 17:03:22.365 [nioEventLoopGroup-1-13] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 17:03:22.365 [nioEventLoopGroup-1-13] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 17:03:22.365 [nioEventLoopGroup-1-13] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 17:03:22.365 [nioEventLoopGroup-1-13] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 17:03:22.365 [nioEventLoopGroup-1-13] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 17:03:22.567 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x6a77c1fc, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xfb11f5b3, /127.0.0.1:36998 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 17:03:22.570 [nioEventLoopGroup-1-14] ApiProtocol - /employee
+[DEBUG] 2020-01-03 17:03:22.571 [nioEventLoopGroup-1-14] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 17:03:22.571 [nioEventLoopGroup-1-14] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 17:03:22.571 [nioEventLoopGroup-1-14] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 17:03:22.571 [nioEventLoopGroup-1-14] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 17:03:22.571 [nioEventLoopGroup-1-14] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 17:03:22.741 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x6a77c1fc, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xff926724, /127.0.0.1:37008 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 17:03:22.742 [nioEventLoopGroup-1-15] ApiProtocol - /employee
+[DEBUG] 2020-01-03 17:03:22.743 [nioEventLoopGroup-1-15] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 17:03:22.743 [nioEventLoopGroup-1-15] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 17:03:22.743 [nioEventLoopGroup-1-15] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 17:03:22.743 [nioEventLoopGroup-1-15] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 17:03:22.743 [nioEventLoopGroup-1-15] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 17:03:22.908 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x6a77c1fc, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xf43d3833, /127.0.0.1:37010 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 17:03:22.909 [nioEventLoopGroup-1-0] ApiProtocol - /employee
+[DEBUG] 2020-01-03 17:03:22.909 [nioEventLoopGroup-1-0] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 17:03:22.909 [nioEventLoopGroup-1-0] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 17:03:22.909 [nioEventLoopGroup-1-0] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 17:03:22.909 [nioEventLoopGroup-1-0] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 17:03:22.909 [nioEventLoopGroup-1-0] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 17:03:23.071 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x6a77c1fc, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xc2791612, /127.0.0.1:37012 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 17:03:23.072 [nioEventLoopGroup-1-1] ApiProtocol - /employee
+[DEBUG] 2020-01-03 17:03:23.072 [nioEventLoopGroup-1-1] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 17:03:23.072 [nioEventLoopGroup-1-1] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 17:03:23.072 [nioEventLoopGroup-1-1] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 17:03:23.072 [nioEventLoopGroup-1-1] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 17:03:23.072 [nioEventLoopGroup-1-1] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 17:03:23.270 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x6a77c1fc, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x45291056, /127.0.0.1:37014 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 17:03:23.271 [nioEventLoopGroup-1-2] ApiProtocol - /employee
+[DEBUG] 2020-01-03 17:03:23.271 [nioEventLoopGroup-1-2] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 17:03:23.271 [nioEventLoopGroup-1-2] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 17:03:23.272 [nioEventLoopGroup-1-2] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 17:03:23.272 [nioEventLoopGroup-1-2] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 17:03:23.272 [nioEventLoopGroup-1-2] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 17:03:23.444 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x6a77c1fc, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xc93a3ede, /127.0.0.1:37016 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 17:03:23.445 [nioEventLoopGroup-1-3] ApiProtocol - /employee
+[DEBUG] 2020-01-03 17:03:23.446 [nioEventLoopGroup-1-3] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 17:03:23.446 [nioEventLoopGroup-1-3] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 17:03:23.446 [nioEventLoopGroup-1-3] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 17:03:23.446 [nioEventLoopGroup-1-3] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 17:03:23.446 [nioEventLoopGroup-1-3] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 17:03:23.611 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x6a77c1fc, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xb3ecee42, /127.0.0.1:37018 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 17:03:23.613 [nioEventLoopGroup-1-12] ApiProtocol - /employee
+[DEBUG] 2020-01-03 17:03:23.614 [nioEventLoopGroup-1-12] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 17:03:23.614 [nioEventLoopGroup-1-12] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 17:03:23.614 [nioEventLoopGroup-1-12] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 17:03:23.614 [nioEventLoopGroup-1-12] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 17:03:23.614 [nioEventLoopGroup-1-12] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 17:03:23.793 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x6a77c1fc, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xba694966, /127.0.0.1:37028 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 17:03:23.794 [nioEventLoopGroup-1-5] ApiProtocol - /employee
+[DEBUG] 2020-01-03 17:03:23.795 [nioEventLoopGroup-1-5] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 17:03:23.795 [nioEventLoopGroup-1-5] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 17:03:23.795 [nioEventLoopGroup-1-5] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 17:03:23.795 [nioEventLoopGroup-1-5] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 17:03:23.795 [nioEventLoopGroup-1-5] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 17:03:23.978 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x6a77c1fc, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x52830d5b, /127.0.0.1:37030 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 17:03:23.979 [nioEventLoopGroup-1-6] ApiProtocol - /employee
+[DEBUG] 2020-01-03 17:03:23.979 [nioEventLoopGroup-1-6] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 17:03:23.979 [nioEventLoopGroup-1-6] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 17:03:23.979 [nioEventLoopGroup-1-6] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 17:03:23.979 [nioEventLoopGroup-1-6] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 17:03:23.979 [nioEventLoopGroup-1-6] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 17:03:24.173 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x6a77c1fc, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xd0d4700f, /127.0.0.1:37032 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 17:03:24.174 [nioEventLoopGroup-1-7] ApiProtocol - /employee
+[DEBUG] 2020-01-03 17:03:24.174 [nioEventLoopGroup-1-7] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 17:03:24.174 [nioEventLoopGroup-1-7] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 17:03:24.174 [nioEventLoopGroup-1-7] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 17:03:24.174 [nioEventLoopGroup-1-7] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 17:03:24.175 [nioEventLoopGroup-1-7] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 17:03:24.380 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x6a77c1fc, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x41fad06b, /127.0.0.1:37034 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 17:03:24.382 [nioEventLoopGroup-1-8] ApiProtocol - /employee
+[DEBUG] 2020-01-03 17:03:24.382 [nioEventLoopGroup-1-8] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 17:03:24.382 [nioEventLoopGroup-1-8] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 17:03:24.383 [nioEventLoopGroup-1-8] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 17:03:24.383 [nioEventLoopGroup-1-8] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 17:03:24.383 [nioEventLoopGroup-1-8] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 17:03:24.566 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x6a77c1fc, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xd10cf021, /127.0.0.1:37036 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 17:03:24.567 [nioEventLoopGroup-1-9] ApiProtocol - /employee
+[DEBUG] 2020-01-03 17:03:24.567 [nioEventLoopGroup-1-9] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 17:03:24.567 [nioEventLoopGroup-1-9] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 17:03:24.567 [nioEventLoopGroup-1-9] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 17:03:24.567 [nioEventLoopGroup-1-9] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 17:03:24.568 [nioEventLoopGroup-1-9] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 17:03:24.761 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x6a77c1fc, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xb9865dd2, /127.0.0.1:37046 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 17:03:24.763 [nioEventLoopGroup-1-10] ApiProtocol - /employee
+[DEBUG] 2020-01-03 17:03:24.763 [nioEventLoopGroup-1-10] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 17:03:24.763 [nioEventLoopGroup-1-10] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 17:03:24.763 [nioEventLoopGroup-1-10] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 17:03:24.763 [nioEventLoopGroup-1-10] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 17:03:24.763 [nioEventLoopGroup-1-10] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 17:03:24.928 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x6a77c1fc, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x4202c6ec, /127.0.0.1:37048 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 17:03:24.929 [nioEventLoopGroup-1-11] ApiProtocol - /employee
+[DEBUG] 2020-01-03 17:03:24.929 [nioEventLoopGroup-1-11] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 17:03:24.929 [nioEventLoopGroup-1-11] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 17:03:24.929 [nioEventLoopGroup-1-11] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 17:03:24.930 [nioEventLoopGroup-1-11] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 17:03:24.930 [nioEventLoopGroup-1-11] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1
+[INFO ] 2020-01-03 17:03:25.125 [nioEventLoopGroup-0-0] LoggingHandler - [id: 0x6a77c1fc, /0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0x55d55c74, /127.0.0.1:37050 => /127.0.0.1:8080]
+[INFO ] 2020-01-03 17:03:25.126 [nioEventLoopGroup-1-4] ApiProtocol - /employee
+[DEBUG] 2020-01-03 17:03:25.126 [nioEventLoopGroup-1-4] ApiProtocol - endpoint /employee api regex /user/([^/]+)
+[DEBUG] 2020-01-03 17:03:25.126 [nioEventLoopGroup-1-4] ApiProtocol - endpoint /employee api regex /user
+[DEBUG] 2020-01-03 17:03:25.126 [nioEventLoopGroup-1-4] ApiProtocol - endpoint /employee api regex /employee
+[DEBUG] 2020-01-03 17:03:25.126 [nioEventLoopGroup-1-4] ApiProtocol - api name /employee
+[DEBUG] 2020-01-03 17:03:25.126 [nioEventLoopGroup-1-4] ApiProtocol - server ip: 127.0.0.1, client ip: 127.0.0.1

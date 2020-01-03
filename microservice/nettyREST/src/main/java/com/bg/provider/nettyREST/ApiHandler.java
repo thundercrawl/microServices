@@ -5,6 +5,7 @@ import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.bg.microservice.share.Config;
 import com.bg.microservice.share.api.Api;
 import com.bg.microservice.share.api.ApiProtocol;
 import com.bg.microservice.share.api.ApiRoute;

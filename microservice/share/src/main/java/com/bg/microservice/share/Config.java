@@ -1,4 +1,4 @@
-package com.bg.provider.nettyREST;
+package com.bg.microservice.share;
 
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -7,7 +7,7 @@ import java.util.Properties;
 public class Config {
 
     private static       Properties properties = new Properties();
-    private static final String     configName = "/nettyrest.properties";
+    private static final String     configName = "/config.properties";
     private static Config instance;
 
     private Config() {
