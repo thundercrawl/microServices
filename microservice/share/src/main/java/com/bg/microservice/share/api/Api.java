@@ -7,8 +7,20 @@ import java.util.List;
 import java.util.Set;
 
 /**
- * api mapping object
- */
+* Returns an Image object that can then be painted on the screen. 
+* The url argument must specify an absolute <a href="#{@link}">{@link URL}</a>. The name
+* argument is a specifier that is relative to the url argument. 
+* <p>
+* This method always returns immediately, whether or not the 
+* image exists. When this applet attempts to draw the image on
+* the screen, the data will be loaded. The graphics primitives 
+* that draw the image will incrementally paint on the screen. 
+*
+* @param  url  an absolute URL giving the base location of the image
+* @param  name the location of the image, relative to the url argument
+* @return      the image at the specified URL
+* @see         Image
+*/
 public class Api {
 
 	private static String split = "\\|";
@@ -18,13 +30,21 @@ public class Api {
     private HashMap<String,String>  http2Method;
     private String       resource;
     private int          build;
-
+//
+    /*
+     * Constructor for api
+     */
     public Api() {
         http2Method = new HashMap<>();
         parameterNames = new ArrayList<>();
     }
 
-    public List<String> getParameterNames() {
+    @Override
+	public String toString() {
+		return super.toString();
+	}
+
+	public List<String> getParameterNames() {
         return parameterNames;
     }
 
@@ -32,6 +52,9 @@ public class Api {
         return name;
     }
 
+    /**
+     * @param name
+     */
     public void setName(String name) {
         this.name = name;
 
@@ -66,6 +89,10 @@ public class Api {
         this.build = build;
     }
 
+    /**
+     * Add http method for api level
+     * @param httpMethod
+     */
     public void addHttpMethod(String httpMethod) {
     	String[]h2m = httpMethod.split(split);
         this.http2Method.put(h2m[0], h2m[1]);

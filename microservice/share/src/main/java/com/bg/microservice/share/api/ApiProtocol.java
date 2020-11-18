@@ -36,8 +36,8 @@ public class ApiProtocol {
     private int                       offset     = 0;
     private int                       limit      = 10;
     private HttpMethod                method     = HttpMethod.GET;
-    private Map<String, List<String>> parameters = new HashMap<String, List<String>>(); // get 和 post 的键值对都存储在这里
-    private String                    postBody   = null; // post 请求时的非键值对内容
+    private Map<String, List<String>> parameters = new HashMap<String, List<String>>(); 
+    private String                    postBody   = null; 
 
     public int getBuild() {
         return build;
